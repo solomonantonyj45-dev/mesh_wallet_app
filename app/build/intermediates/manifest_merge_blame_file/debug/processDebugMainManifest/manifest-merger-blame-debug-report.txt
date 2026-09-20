@@ -56,102 +56,162 @@
 34    <uses-permission android:name="com.meshwallet.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 34-->[androidx.core:core:1.13.1] /home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
 34-->[androidx.core:core:1.13.1] /home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
-35
-36    <application
-36-->/workspaces/mesh_wallet_app/app/src/main/AndroidManifest.xml:13:5-26:19
-37        android:allowBackup="true"
-37-->/workspaces/mesh_wallet_app/app/src/main/AndroidManifest.xml:14:9-35
-38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-38-->[androidx.core:core:1.13.1] /home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
-39        android:debuggable="true"
-40        android:extractNativeLibs="false"
-41        android:label="MeshWallet"
-41-->/workspaces/mesh_wallet_app/app/src/main/AndroidManifest.xml:15:9-35
-42        android:theme="@style/Theme.AppCompat" >
-42-->/workspaces/mesh_wallet_app/app/src/main/AndroidManifest.xml:16:9-47
-43        <activity
-43-->/workspaces/mesh_wallet_app/app/src/main/AndroidManifest.xml:18:9-25:20
-44            android:name="com.meshwallet.app.MainActivity"
-44-->/workspaces/mesh_wallet_app/app/src/main/AndroidManifest.xml:19:13-41
-45            android:exported="true" >
-45-->/workspaces/mesh_wallet_app/app/src/main/AndroidManifest.xml:20:13-36
-46            <intent-filter>
-46-->/workspaces/mesh_wallet_app/app/src/main/AndroidManifest.xml:21:13-24:29
-47                <action android:name="android.intent.action.MAIN" />
-47-->/workspaces/mesh_wallet_app/app/src/main/AndroidManifest.xml:22:17-69
-47-->/workspaces/mesh_wallet_app/app/src/main/AndroidManifest.xml:22:25-66
-48
-49                <category android:name="android.intent.category.LAUNCHER" />
-49-->/workspaces/mesh_wallet_app/app/src/main/AndroidManifest.xml:23:17-77
-49-->/workspaces/mesh_wallet_app/app/src/main/AndroidManifest.xml:23:27-74
-50            </intent-filter>
-51        </activity>
-52
-53        <provider
-53-->[androidx.emoji2:emoji2:1.3.0] /home/codespace/.gradle/caches/transforms-4/1a8dd8b586000eded0416f6cc0011877/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
-54            android:name="androidx.startup.InitializationProvider"
-54-->[androidx.emoji2:emoji2:1.3.0] /home/codespace/.gradle/caches/transforms-4/1a8dd8b586000eded0416f6cc0011877/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
-55            android:authorities="com.meshwallet.app.androidx-startup"
-55-->[androidx.emoji2:emoji2:1.3.0] /home/codespace/.gradle/caches/transforms-4/1a8dd8b586000eded0416f6cc0011877/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
-56            android:exported="false" >
-56-->[androidx.emoji2:emoji2:1.3.0] /home/codespace/.gradle/caches/transforms-4/1a8dd8b586000eded0416f6cc0011877/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
-57            <meta-data
-57-->[androidx.emoji2:emoji2:1.3.0] /home/codespace/.gradle/caches/transforms-4/1a8dd8b586000eded0416f6cc0011877/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
-58                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-58-->[androidx.emoji2:emoji2:1.3.0] /home/codespace/.gradle/caches/transforms-4/1a8dd8b586000eded0416f6cc0011877/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
-59                android:value="androidx.startup" />
-59-->[androidx.emoji2:emoji2:1.3.0] /home/codespace/.gradle/caches/transforms-4/1a8dd8b586000eded0416f6cc0011877/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
-60            <meta-data
-60-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/codespace/.gradle/caches/transforms-4/d1cf4ca3ccde81b23858a9d997c6a88d/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
-61                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-61-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/codespace/.gradle/caches/transforms-4/d1cf4ca3ccde81b23858a9d997c6a88d/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
-62                android:value="androidx.startup" />
-62-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/codespace/.gradle/caches/transforms-4/d1cf4ca3ccde81b23858a9d997c6a88d/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
-63            <meta-data
-63-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
-64                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-64-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
-65                android:value="androidx.startup" />
-65-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
-66        </provider>
-67
-68        <receiver
-68-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
-69            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-69-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
-70            android:directBootAware="false"
-70-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
-71            android:enabled="true"
-71-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
-72            android:exported="true"
-72-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
-73            android:permission="android.permission.DUMP" >
-73-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
-74            <intent-filter>
-74-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
-75                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-75-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
-75-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
-76            </intent-filter>
-77            <intent-filter>
-77-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
-78                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-78-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
-78-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
-79            </intent-filter>
-80            <intent-filter>
-80-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
-81                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-81-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
-81-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
-82            </intent-filter>
-83            <intent-filter>
-83-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
-84                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-84-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
-84-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
-85            </intent-filter>
-86        </receiver>
-87    </application>
-88
-89</manifest>
+35    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+35-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:22:5-65
+35-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:22:22-62
+36    <uses-feature
+36-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:25:5-27:36
+37        android:name="android.hardware.camera"
+37-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:26:9-47
+38        android:required="false" />
+38-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:27:9-33
+39    <uses-feature
+39-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:28:5-30:36
+40        android:name="android.hardware.camera.front"
+40-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:29:9-53
+41        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+41-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:30:9-33
+42    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+43    <uses-feature
+43-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:33:5-35:36
+44        android:name="android.hardware.camera.autofocus"
+44-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:34:9-57
+45        android:required="false" />
+45-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:35:9-33
+46    <uses-feature
+46-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:36:5-38:36
+47        android:name="android.hardware.camera.flash"
+47-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:37:9-53
+48        android:required="false" />
+48-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:38:9-33
+49    <uses-feature
+49-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:39:5-41:36
+50        android:name="android.hardware.screen.landscape"
+50-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:40:9-57
+51        android:required="false" />
+51-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:41:9-33
+52    <uses-feature
+52-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:42:5-44:36
+53        android:name="android.hardware.wifi"
+53-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:43:9-45
+54        android:required="false" />
+54-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:44:9-33
+55
+56    <application
+56-->/workspaces/mesh_wallet_app/app/src/main/AndroidManifest.xml:13:5-33:19
+57        android:allowBackup="true"
+57-->/workspaces/mesh_wallet_app/app/src/main/AndroidManifest.xml:14:9-35
+58        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+58-->[androidx.core:core:1.13.1] /home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+59        android:debuggable="true"
+60        android:extractNativeLibs="false"
+61        android:label="MeshWallet"
+61-->/workspaces/mesh_wallet_app/app/src/main/AndroidManifest.xml:15:9-35
+62        android:theme="@style/Theme.AppCompat" >
+62-->/workspaces/mesh_wallet_app/app/src/main/AndroidManifest.xml:16:9-47
+63        <activity
+63-->/workspaces/mesh_wallet_app/app/src/main/AndroidManifest.xml:18:9-25:20
+64            android:name="com.meshwallet.app.MainActivity"
+64-->/workspaces/mesh_wallet_app/app/src/main/AndroidManifest.xml:19:13-41
+65            android:exported="true" >
+65-->/workspaces/mesh_wallet_app/app/src/main/AndroidManifest.xml:20:13-36
+66            <intent-filter>
+66-->/workspaces/mesh_wallet_app/app/src/main/AndroidManifest.xml:21:13-24:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->/workspaces/mesh_wallet_app/app/src/main/AndroidManifest.xml:22:17-69
+67-->/workspaces/mesh_wallet_app/app/src/main/AndroidManifest.xml:22:25-66
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->/workspaces/mesh_wallet_app/app/src/main/AndroidManifest.xml:23:17-77
+69-->/workspaces/mesh_wallet_app/app/src/main/AndroidManifest.xml:23:27-74
+70            </intent-filter>
+71        </activity>
+72        <activity
+72-->/workspaces/mesh_wallet_app/app/src/main/AndroidManifest.xml:27:9-78
+73            android:name="com.meshwallet.app.PaymentActivity"
+73-->/workspaces/mesh_wallet_app/app/src/main/AndroidManifest.xml:27:19-50
+74            android:exported="false" />
+74-->/workspaces/mesh_wallet_app/app/src/main/AndroidManifest.xml:27:51-75
+75        <activity
+75-->/workspaces/mesh_wallet_app/app/src/main/AndroidManifest.xml:29:9-32:49
+76            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+76-->/workspaces/mesh_wallet_app/app/src/main/AndroidManifest.xml:30:13-74
+77            android:clearTaskOnLaunch="true"
+77-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:49:13-45
+78            android:screenOrientation="fullSensor"
+78-->/workspaces/mesh_wallet_app/app/src/main/AndroidManifest.xml:31:13-51
+79            android:stateNotNeeded="true"
+79-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:51:13-42
+80            android:theme="@style/zxing_CaptureTheme"
+80-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:52:13-54
+81            android:windowSoftInputMode="stateAlwaysHidden" />
+81-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:53:13-60
+82
+83        <provider
+83-->[androidx.emoji2:emoji2:1.3.0] /home/codespace/.gradle/caches/transforms-4/1a8dd8b586000eded0416f6cc0011877/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+84            android:name="androidx.startup.InitializationProvider"
+84-->[androidx.emoji2:emoji2:1.3.0] /home/codespace/.gradle/caches/transforms-4/1a8dd8b586000eded0416f6cc0011877/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+85            android:authorities="com.meshwallet.app.androidx-startup"
+85-->[androidx.emoji2:emoji2:1.3.0] /home/codespace/.gradle/caches/transforms-4/1a8dd8b586000eded0416f6cc0011877/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+86            android:exported="false" >
+86-->[androidx.emoji2:emoji2:1.3.0] /home/codespace/.gradle/caches/transforms-4/1a8dd8b586000eded0416f6cc0011877/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+87            <meta-data
+87-->[androidx.emoji2:emoji2:1.3.0] /home/codespace/.gradle/caches/transforms-4/1a8dd8b586000eded0416f6cc0011877/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+88                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+88-->[androidx.emoji2:emoji2:1.3.0] /home/codespace/.gradle/caches/transforms-4/1a8dd8b586000eded0416f6cc0011877/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+89                android:value="androidx.startup" />
+89-->[androidx.emoji2:emoji2:1.3.0] /home/codespace/.gradle/caches/transforms-4/1a8dd8b586000eded0416f6cc0011877/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+90            <meta-data
+90-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/codespace/.gradle/caches/transforms-4/d1cf4ca3ccde81b23858a9d997c6a88d/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+91                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+91-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/codespace/.gradle/caches/transforms-4/d1cf4ca3ccde81b23858a9d997c6a88d/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+92                android:value="androidx.startup" />
+92-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/codespace/.gradle/caches/transforms-4/d1cf4ca3ccde81b23858a9d997c6a88d/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+93            <meta-data
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+94                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+95                android:value="androidx.startup" />
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+96        </provider>
+97
+98        <receiver
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+99            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+100            android:directBootAware="false"
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+101            android:enabled="true"
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+102            android:exported="true"
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+103            android:permission="android.permission.DUMP" >
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+105                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+106            </intent-filter>
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+108                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+109            </intent-filter>
+110            <intent-filter>
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+111                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+112            </intent-filter>
+113            <intent-filter>
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+114                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+115            </intent-filter>
+116        </receiver>
+117    </application>
+118
+119</manifest>

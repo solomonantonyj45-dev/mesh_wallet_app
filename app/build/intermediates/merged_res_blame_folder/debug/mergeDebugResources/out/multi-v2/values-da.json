@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.meshwallet.app-mergeDebugResources-22:/values-da/values-da.xml",
+            "outputFile": "com.meshwallet.app-mergeDebugResources-23:/values-da/values-da.xml",
             "map": [
                 {
                     "source": "/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-da/values-da.xml",
@@ -18,6 +18,23 @@
                         "startOffsets": "2757,2853,2955,3052,3150,3257,3366,3564",
                         "endColumns": "95,101,96,97,106,108,117,100",
                         "endOffsets": "2848,2950,3047,3145,3252,3361,3479,3660"
+                    }
+                },
+                {
+                    "source": "/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-da/values-da.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,114,161,307",
+                        "endColumns": "58,46,145,109",
+                        "endOffsets": "109,156,302,412"
+                    },
+                    "to": {
+                        "startLines": "38,39,40,41",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "3665,3724,3771,3917",
+                        "endColumns": "58,46,145,109",
+                        "endOffsets": "3719,3766,3912,4022"
                     }
                 },
                 {

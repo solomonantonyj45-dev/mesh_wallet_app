@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3" xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="net.java.dev.jna:jna:5.13.0$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/50d7fda974f22297f7325985271e5e75/transformed/jna-5.13.0/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="net.java.dev.jna:jna:5.13.0" from-dependency="true" generated-set="net.java.dev.jna:jna:5.13.0$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/50d7fda974f22297f7325985271e5e75/transformed/jna-5.13.0/res"><file path="/home/codespace/.gradle/caches/transforms-4/50d7fda974f22297f7325985271e5e75/transformed/jna-5.13.0/res/values/values.xml" qualifiers=""><string name="jna_library_appname">JNA bindings</string></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.arch.core:core-runtime:2.2.0$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/0c9f80eaf39fed91acf33224ae097928/transformed/core-runtime-2.2.0/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.arch.core:core-runtime:2.2.0" from-dependency="true" generated-set="androidx.arch.core:core-runtime:2.2.0$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/0c9f80eaf39fed91acf33224ae097928/transformed/core-runtime-2.2.0/res"><file path="/home/codespace/.gradle/caches/transforms-4/0c9f80eaf39fed91acf33224ae097928/transformed/core-runtime-2.2.0/res/values/values.xml" qualifiers=""/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.startup:startup-runtime:1.1.1$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/a14ad7993bd5abb7f340172a31e8afa8/transformed/startup-runtime-1.1.1/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.startup:startup-runtime:1.1.1" from-dependency="true" generated-set="androidx.startup:startup-runtime:1.1.1$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/a14ad7993bd5abb7f340172a31e8afa8/transformed/startup-runtime-1.1.1/res"><file path="/home/codespace/.gradle/caches/transforms-4/a14ad7993bd5abb7f340172a31e8afa8/transformed/startup-runtime-1.1.1/res/values/values.xml" qualifiers=""><string name="androidx_startup" translatable="false">androidx.startup</string></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.profileinstaller:profileinstaller:1.3.1$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.profileinstaller:profileinstaller:1.3.1" from-dependency="true" generated-set="androidx.profileinstaller:profileinstaller:1.3.1$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/res"><file path="/home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/res/values/values.xml" qualifiers=""/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.annotation:annotation-experimental:1.4.0$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/fb400e365936c05c64f9c915ef7d232b/transformed/annotation-experimental-1.4.0/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.annotation:annotation-experimental:1.4.0" from-dependency="true" generated-set="androidx.annotation:annotation-experimental:1.4.0$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/fb400e365936c05c64f9c915ef7d232b/transformed/annotation-experimental-1.4.0/res"><file path="/home/codespace/.gradle/caches/transforms-4/fb400e365936c05c64f9c915ef7d232b/transformed/annotation-experimental-1.4.0/res/values/values.xml" qualifiers=""/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.core:core-ktx:1.13.1$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/302b6e6f7f5984df9b4e15b64fdfdb7a/transformed/core-ktx-1.13.1/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.core:core-ktx:1.13.1" from-dependency="true" generated-set="androidx.core:core-ktx:1.13.1$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/302b6e6f7f5984df9b4e15b64fdfdb7a/transformed/core-ktx-1.13.1/res"><file path="/home/codespace/.gradle/caches/transforms-4/302b6e6f7f5984df9b4e15b64fdfdb7a/transformed/core-ktx-1.13.1/res/values/values.xml" qualifiers=""/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/efd168de4d95d865b9dc2c83495f828c/transformed/lifecycle-viewmodel-savedstate-2.6.2/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2" from-dependency="true" generated-set="androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/efd168de4d95d865b9dc2c83495f828c/transformed/lifecycle-viewmodel-savedstate-2.6.2/res"><file path="/home/codespace/.gradle/caches/transforms-4/efd168de4d95d865b9dc2c83495f828c/transformed/lifecycle-viewmodel-savedstate-2.6.2/res/values/values.xml" qualifiers=""/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-runtime:2.6.2$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/75ebc45896ca2429fb42fc3f52a43023/transformed/lifecycle-runtime-2.6.2/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-runtime:2.6.2" from-dependency="true" generated-set="androidx.lifecycle:lifecycle-runtime:2.6.2$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/75ebc45896ca2429fb42fc3f52a43023/transformed/lifecycle-runtime-2.6.2/res"><file path="/home/codespace/.gradle/caches/transforms-4/75ebc45896ca2429fb42fc3f52a43023/transformed/lifecycle-runtime-2.6.2/res/values/values.xml" qualifiers=""><id name="view_tree_lifecycle_owner"/></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-livedata-core:2.6.2$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/39a2844ab4ef7a33dae24e7c3ce04173/transformed/lifecycle-livedata-core-2.6.2/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-livedata-core:2.6.2" from-dependency="true" generated-set="androidx.lifecycle:lifecycle-livedata-core:2.6.2$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/39a2844ab4ef7a33dae24e7c3ce04173/transformed/lifecycle-livedata-core-2.6.2/res"><file path="/home/codespace/.gradle/caches/transforms-4/39a2844ab4ef7a33dae24e7c3ce04173/transformed/lifecycle-livedata-core-2.6.2/res/values/values.xml" qualifiers=""/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-process:2.6.2$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/d1cf4ca3ccde81b23858a9d997c6a88d/transformed/lifecycle-process-2.6.2/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-process:2.6.2" from-dependency="true" generated-set="androidx.lifecycle:lifecycle-process:2.6.2$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/d1cf4ca3ccde81b23858a9d997c6a88d/transformed/lifecycle-process-2.6.2/res"><file path="/home/codespace/.gradle/caches/transforms-4/d1cf4ca3ccde81b23858a9d997c6a88d/transformed/lifecycle-process-2.6.2/res/values/values.xml" qualifiers=""/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-viewmodel:2.6.2$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/f9f11983108f9866097de6b56150bbd1/transformed/lifecycle-viewmodel-2.6.2/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-viewmodel:2.6.2" from-dependency="true" generated-set="androidx.lifecycle:lifecycle-viewmodel:2.6.2$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/f9f11983108f9866097de6b56150bbd1/transformed/lifecycle-viewmodel-2.6.2/res"><file path="/home/codespace/.gradle/caches/transforms-4/f9f11983108f9866097de6b56150bbd1/transformed/lifecycle-viewmodel-2.6.2/res/values/values.xml" qualifiers=""><id name="view_tree_view_model_store_owner"/></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-livedata:2.6.2$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/1b5f3637f7b3b4753721562347d31179/transformed/lifecycle-livedata-2.6.2/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-livedata:2.6.2" from-dependency="true" generated-set="androidx.lifecycle:lifecycle-livedata:2.6.2$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/1b5f3637f7b3b4753721562347d31179/transformed/lifecycle-livedata-2.6.2/res"><file path="/home/codespace/.gradle/caches/transforms-4/1b5f3637f7b3b4753721562347d31179/transformed/lifecycle-livedata-2.6.2/res/values/values.xml" qualifiers=""/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.savedstate:savedstate:1.2.1$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/bc79800d99bfa0795f94af596071a85a/transformed/savedstate-1.2.1/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.savedstate:savedstate:1.2.1" from-dependency="true" generated-set="androidx.savedstate:savedstate:1.2.1$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/bc79800d99bfa0795f94af596071a85a/transformed/savedstate-1.2.1/res"><file path="/home/codespace/.gradle/caches/transforms-4/bc79800d99bfa0795f94af596071a85a/transformed/savedstate-1.2.1/res/values/values.xml" qualifiers=""><id name="view_tree_saved_state_registry_owner"/></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.core:core:1.13.1$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.core:core:1.13.1" from-dependency="true" generated-set="androidx.core:core:1.13.1$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res"><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-b+sr+Latn/values-b+sr+Latn.xml" qualifiers="b+sr+Latn"><string msgid="881409763997275156" name="call_notification_answer_action">"Odgovori"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"Odbij"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"Prekini vezu"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"Dolazni poziv"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"Poziv je u toku"</string><string msgid="59049573811482460" name="call_notification_screening_text">"Proverava se dolazni poziv"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-ky/values-ky.xml" qualifiers="ky"><string msgid="881409763997275156" name="call_notification_answer_action">"Жооп берүү"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"Видео"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"Четке кагуу"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"Чалууну бүтүрүү"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"Кирүүчү чалуу"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"Учурдагы чалуу"</string><string msgid="59049573811482460" name="call_notification_screening_text">"Кирүүчү чалууну иргөө"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-ms/values-ms.xml" qualifiers="ms"><string msgid="881409763997275156" name="call_notification_answer_action">"Jawab"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"Tolak"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"Tamatkan Panggilan"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"Panggilan masuk"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"Panggilan sedang berlangsung"</string><string msgid="59049573811482460" name="call_notification_screening_text">"Menyaring panggilan masuk"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-hu/values-hu.xml" qualifiers="hu"><string msgid="881409763997275156" name="call_notification_answer_action">"Fogadás"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"Videó"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"Elutasítás"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"Befejezés"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"Bejövő hívás"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"Hívás folyamatban"</string><string msgid="59049573811482460" name="call_notification_screening_text">"Bejövő hívás szűrése"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-hi/values-hi.xml" qualifiers="hi"><string msgid="881409763997275156" name="call_notification_answer_action">"जवाब दें"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"वीडियो"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"अस्वीकार करें"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"कॉल काटें"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"आने वाला (इनकमिंग) कॉल"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"पहले से जारी कॉल"</string><string msgid="59049573811482460" name="call_notification_screening_text">"इनकमिंग कॉल को स्क्रीन किया जा रहा है"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-zh-rHK/values-zh-rHK.xml" qualifiers="zh-rHK"><string msgid="881409763997275156" name="call_notification_answer_action">"接聽"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"視像"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"拒接"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"掛斷"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"來電"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"通話中"</string><string msgid="59049573811482460" name="call_notification_screening_text">"正在過濾來電"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-zh-rTW/values-zh-rTW.xml" qualifiers="zh-rTW"><string msgid="881409763997275156" name="call_notification_answer_action">"接聽"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"視訊"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"拒接"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"掛斷"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"來電"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"通話中"</string><string msgid="59049573811482460" name="call_notification_screening_text">"正在過濾來電"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-vi/values-vi.xml" qualifiers="vi"><string msgid="881409763997275156" name="call_notification_answer_action">"Trả lời"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"Từ chối"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"Kết thúc"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"Cuộc gọi đến"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"Cuộc gọi đang thực hiện"</string><string msgid="59049573811482460" name="call_notification_screening_text">"Đang sàng lọc cuộc gọi đến"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-gl/values-gl.xml" qualifiers="gl"><string msgid="881409763997275156" name="call_notification_answer_action">"Contestar"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"Vídeo"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"Rexeitar"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"Colgar"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"Chamada entrante"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"Chamada en curso"</string><string msgid="59049573811482460" name="call_notification_screening_text">"Filtrando chamada entrante"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">">999"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-da/values-da.xml" qualifiers="da"><string msgid="881409763997275156" name="call_notification_answer_action">"Besvar"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"Afvis"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"Læg på"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"Indgående opkald"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"Igangværende opkald"</string><string msgid="59049573811482460" name="call_notification_screening_text">"Et indgående opkald screenes"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-ko/values-ko.xml" qualifiers="ko"><string msgid="881409763997275156" name="call_notification_answer_action">"통화"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"동영상"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"거절"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"전화 끊기"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"수신 전화"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"진행 중인 통화"</string><string msgid="59049573811482460" name="call_notification_screening_text">"수신 전화 검사 중"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-mn/values-mn.xml" qualifiers="mn"><string msgid="881409763997275156" name="call_notification_answer_action">"Хариулах"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"Видео"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"Татгалзах"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"Таслах"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"Ирсэн дуудлага"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"Дуудлага хийгдэж байна"</string><string msgid="59049573811482460" name="call_notification_screening_text">"Ирсэн дуудлагыг харуулж байна"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-es-rUS/values-es-rUS.xml" qualifiers="es-rUS"><string msgid="881409763997275156" name="call_notification_answer_action">"Responder"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"Rechazar"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"Colgar"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"Llamada entrante"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"Llamada en curso"</string><string msgid="59049573811482460" name="call_notification_screening_text">"Filtrando una llamada entrante"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-te/values-te.xml" qualifiers="te"><string msgid="881409763997275156" name="call_notification_answer_action">"పికప్ చేయండి"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"వీడియో కాల్"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"కట్ చేయండి"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"ముగించండి"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"ఇన్‌కమింగ్ కాల్"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"కాల్ కొనసాగుతోంది"</string><string msgid="59049573811482460" name="call_notification_screening_text">"ఇన్‌కమింగ్ కాల్‌ను స్క్రీన్ చేయండి"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-my/values-my.xml" qualifiers="my"><string msgid="881409763997275156" name="call_notification_answer_action">"ဖုန်းကိုင်ရန်"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"ဗီဒီယို"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"ငြင်းပယ်ရန်"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"ဖုန်းချရန်"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"အဝင်ခေါ်ဆိုမှု"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"လက်ရှိခေါ်ဆိုမှု"</string><string msgid="59049573811482460" name="call_notification_screening_text">"အဝင်ခေါ်ဆိုမှုကို စစ်ဆေးနေသည်"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"၉၉၉+"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-lo/values-lo.xml" qualifiers="lo"><string msgid="881409763997275156" name="call_notification_answer_action">"ຮັບສາຍ"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"ວິດີໂອ"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"ປະຕິເສດ"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"ວາງສາຍ"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"ສາຍໂທເຂົ້າ"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"ສາຍໂທອອກ"</string><string msgid="59049573811482460" name="call_notification_screening_text">"ກຳລັງກວດສອບສາຍໂທເຂົ້າ"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-en-rCA/values-en-rCA.xml" qualifiers="en-rCA"><string msgid="881409763997275156" name="call_notification_answer_action">"Answer"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"Decline"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"Hang Up"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"Incoming call"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"Ongoing call"</string><string msgid="59049573811482460" name="call_notification_screening_text">"Screening an incoming call"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-v21/values-v21.xml" qualifiers="v21"><color name="notification_action_color_filter">@color/androidx_core_secondary_text_default_material_light</color><dimen name="notification_content_margin_start">0dp</dimen><dimen name="notification_main_column_padding_top">0dp</dimen><dimen name="notification_media_narrow_margin">12dp</dimen><style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.Material.Notification"/><style name="TextAppearance.Compat.Notification.Info" parent="@android:style/TextAppearance.Material.Notification.Info"/><style name="TextAppearance.Compat.Notification.Time" parent="@android:style/TextAppearance.Material.Notification.Time"/><style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.Material.Notification.Title"/><style name="Widget.Compat.NotificationActionContainer" parent="">
+<merger version="3" xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="com.journeyapps:zxing-android-embedded:4.3.0$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="com.journeyapps:zxing-android-embedded:4.3.0" from-dependency="true" generated-set="com.journeyapps:zxing-android-embedded:4.3.0$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res"><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-id/values-id.xml" qualifiers="id"><string name="zxing_app_name">Barcode Scanner</string><string name="zxing_button_ok">OK</string><string name="zxing_msg_camera_framework_bug">Maaf, kamera mengalami masalah. Anda mungkin perlu me-restart perangkat.</string><string name="zxing_msg_default_status">Letakkan barcode di dalam kotak jendela untuk memindai.</string></file><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-hu/values-hu.xml" qualifiers="hu"><string name="zxing_app_name">Barcode Scanner</string><string name="zxing_button_ok">OK</string><string name="zxing_msg_camera_framework_bug">Android kamera hiba. Lehet, hogy újra kell indítania a készüléket.</string><string name="zxing_msg_default_status">Pozícionálja a vonalkódot a kereső téglalapba a szkenneléshez.</string></file><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-hi/values-hi.xml" qualifiers="hi"><string name="zxing_app_name">बारकोड स्कैनर</string><string name="zxing_button_ok">ठीक है</string><string name="zxing_msg_camera_framework_bug">क्षमा करें, Android कैमरा एक समस्या का सामना करना पड़ा. आप डिवाइस को पुनरारंभ करने की आवश्यकता हो सकती है.</string><string name="zxing_msg_default_status">दृश्यदर्शी आयत के अंदर एक बारकोड प्लेस इसे स्कैन.</string></file><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-zh-rHK/values-zh-rHK.xml" qualifiers="zh-rHK"><string name="zxing_app_name">條碼掃描器</string><string name="zxing_button_ok">確定</string><string name="zxing_msg_camera_framework_bug">很抱歉，Android 相機出現問題，您可能需要重新啟動您的裝置。</string><string name="zxing_msg_default_status">將條碼置於鏡頭範圍內以進行掃描。</string></file><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-zh-rTW/values-zh-rTW.xml" qualifiers="zh-rTW"><string name="zxing_app_name">條碼掃描器</string><string name="zxing_button_ok">確定</string><string name="zxing_msg_camera_framework_bug">很抱歉，Android 相機出現問題，您可能需要重新啟動您的裝置。</string><string name="zxing_msg_default_status">將條碼置於鏡頭範圍內以進行掃描。</string></file><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-da/values-da.xml" qualifiers="da"><string name="zxing_app_name">Barcode Scanner</string><string name="zxing_button_ok">OK</string><string name="zxing_msg_camera_framework_bug">Beklager, Android-kameraet er stødt på et problem. Du skal muligvis genstarte enheden.</string><string name="zxing_msg_default_status">Placér en stregkode inden i firkanten for at aflæse den.</string></file><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-ko/values-ko.xml" qualifiers="ko"><string name="zxing_app_name">바코드 스캐너</string><string name="zxing_button_ok">확인</string><string name="zxing_msg_camera_framework_bug">죄송합니다. 기기의 카메라에 오류가 생겼습니다. 기기를 재시작 해야될 수도 있습니다.</string><string name="zxing_msg_default_status">바코드를 사각형 안에 비춰주세요.</string></file><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-fr/values-fr.xml" qualifiers="fr"><string name="zxing_app_name">Barcode Scanner</string><string name="zxing_button_ok">OK</string><string name="zxing_msg_camera_framework_bug">Désolé, la caméra Android a rencontré un problème. Un redémarrage de l\'appareil est peut-être nécessaire.</string><string name="zxing_msg_default_status">Encadrez un code-barres avec le viseur pour le balayer.</string></file><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-cs/values-cs.xml" qualifiers="cs"><string name="zxing_app_name">Barcode Scanner</string><string name="zxing_button_ok">OK</string><string name="zxing_msg_camera_framework_bug">Omlouváme se, zjistili jsem problém s fotoaparátem. Možná bude nutné restartovat zařízení.</string><string name="zxing_msg_default_status">Zaměřte čtvercem na čárový kód</string></file><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-eu/values-eu.xml" qualifiers="eu"><string name="zxing_app_name">Barra-kode Eskanerra</string><string name="zxing_button_ok">Ados</string><string name="zxing_msg_camera_framework_bug">Barkatu, Android kamerak arazo bat izan du. Behar bada gailua berrabiarazi beharko duzu.</string><string name="zxing_msg_default_status">Kokatu barra-kode bat laukizuzenaren barruan eskaneatzeko.</string></file><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-sk/values-sk.xml" qualifiers="sk"><string name="zxing_app_name">Barcode Scanner</string><string name="zxing_button_ok">OK</string><string name="zxing_msg_camera_framework_bug">Ospravedlňujeme sa, fotoaparát narazil na problém. Možno bude potrebné reštartovať zariadenie.</string><string name="zxing_msg_default_status">Umiestnite čiarový kód do vnútra obdĺžnika hľadáčiku pre skenovanie</string></file><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-el/values-el.xml" qualifiers="el"><string name="zxing_app_name">Barcode Scanner</string><string name="zxing_button_ok">OK</string><string name="zxing_msg_camera_framework_bug">Συγνώμη, προέκυψε ένα πρόβλημα με την κάμερα. Ίσως χρειαστεί να επανεκιννήσετε τη συσκευή.</string><string name="zxing_msg_default_status">Τοποθετήστε ένα barcode μέσα στο πλαίσιο για να το σκανάρετε.</string></file><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-sv/values-sv.xml" qualifiers="sv"><string name="zxing_app_name">Barcode Scanner</string><string name="zxing_button_ok">OK</string><string name="zxing_msg_camera_framework_bug">Det uppstod tyvärr ett fel med Androidkameran.</string><string name="zxing_msg_default_status">Placera steckkoden inom sökarens rektangel för att läsa den.</string></file><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-iw/values-iw.xml" qualifiers="iw"><string name="zxing_app_name">סורק ברקודים</string><string name="zxing_button_ok">אישור</string><string name="zxing_msg_camera_framework_bug">סליחה, מצלמת האנדרואיד נתקלה בבעיה. ייתכן שיהיה עליך להפעיל מחדש את המכשיר.</string><string name="zxing_msg_default_status">הצב ברקוד בתוך המלבן כדי לסרוק אותו.</string></file><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-ro/values-ro.xml" qualifiers="ro"><string name="zxing_app_name">Barcode Scanner</string><string name="zxing_button_ok">Acceptă</string><string name="zxing_msg_camera_framework_bug">Probleme cu camera foto. Repornește dispozitivul.</string><string name="zxing_msg_default_status">Plasează codul de bare în interiorul vizorului pentru a-l scana</string></file><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-th/values-th.xml" qualifiers="th"><string name="zxing_app_name">Barcode Scanner</string><string name="zxing_button_ok">ตกลง</string><string name="zxing_msg_camera_framework_bug">ขออภัย พบปัญหาของกล้อง Android คุณอาจจะต้องรีสตาร์ทอุปกรณ์</string><string name="zxing_msg_default_status">วางบาร์โค้ดภายในสี่เหลี่ยมผืนผ้าที่ช่องมองภาพเพื่อสแกน</string></file><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-tr/values-tr.xml" qualifiers="tr"><string name="zxing_app_name">Barkod Tarayıcısı</string><string name="zxing_button_ok">Tamam</string><string name="zxing_msg_camera_framework_bug">Üzgünüz, Android kamera bir sorunla karşılaştı. Cihazı yeniden başlatmanız gerekebilir.</string><string name="zxing_msg_default_status">Barkodu taramak için vizördeki dikdörtgenin içerisine yerleştirin.</string></file><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-ru/values-ru.xml" qualifiers="ru"><string name="zxing_app_name">Сканер штрих-кодов</string><string name="zxing_button_ok">OK</string><string name="zxing_msg_camera_framework_bug">К сожалению, возникла ошибка камеры. Может потребоваться перезагрузить устройство.</string><string name="zxing_msg_default_status">Чтобы сканировать штрих-код, поместите его в прямоугольник видоискателя.</string></file><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-uk/values-uk.xml" qualifiers="uk"><string name="zxing_app_name">Сканер штрих-кодів</string><string name="zxing_button_ok">OK</string><string name="zxing_msg_camera_framework_bug">Нажаль, виникла помилка камери. Можливо, вам знадобиться перезавантажити пристрій.</string><string name="zxing_msg_default_status">Щоб відсканувати штрих-код, помістіть його в прямокутник видошукача.</string></file><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-bg/values-bg.xml" qualifiers="bg"><string name="zxing_app_name">Баркод Скенер</string><string name="zxing_button_ok">ОК</string><string name="zxing_msg_camera_framework_bug">Съжаляваме, срещнахме проблем с камерата. Може да се наложи да рестартирате устройството си.</string><string name="zxing_msg_default_status">Сложете баркода вътре в правоъгълника за да го сканирате.</string></file><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-de/values-de.xml" qualifiers="de"><string name="zxing_app_name">Barcode Scanner</string><string name="zxing_button_ok">OK</string><string name="zxing_msg_camera_framework_bug">Mit der Android-Kamera ist leider ein Fehler aufgetreten. Es könnte sein, dass Sie das Gerät neu starten müssen.</string><string name="zxing_msg_default_status">Positionieren Sie den Barcode innerhalb des Rechteckes.</string></file><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-fi/values-fi.xml" qualifiers="fi"><string name="zxing_app_name">Barcode Scanner</string><string name="zxing_button_ok">OK</string><string name="zxing_msg_camera_framework_bug">Valitettavasti Androidin kameran toimiinta häiriintyi. Joudut ehkä käynnistämään laitteen uudelleen.</string><string name="zxing_msg_default_status">Aseta viivakoodi neliön sisälle skannataksesi sen.</string></file><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-nl/values-nl.xml" qualifiers="nl"><string name="zxing_app_name">Barcode Scanner</string><string name="zxing_button_ok">OK</string><string name="zxing_msg_camera_framework_bug">Sorry, er is een probleem met de Android-camera. Probeer je telefoon opnieuw op te starten.</string><string name="zxing_msg_default_status">Plaats een barcode binnen de rechthoek om deze te scannen.</string></file><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-it/values-it.xml" qualifiers="it"><string name="zxing_app_name">Barcode Scanner</string><string name="zxing_button_ok">OK</string><string name="zxing_msg_camera_framework_bug">Spiacenti, la fotocamera Android ha riscontrato un problema. Potrebbe essere necessario riavviare il dispositivo.</string><string name="zxing_msg_default_status">Posiziona un codice a barre dentro il mirino rettangolare per la scansione.</string></file><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-sl/values-sl.xml" qualifiers="sl"><string name="zxing_app_name">Barcode Scanner</string><string name="zxing_button_ok">V redu</string><string name="zxing_msg_camera_framework_bug">Oprostite, Android kamera je naletela na težave. Mogoče boste morali ponovno zagnati napravo.</string><string name="zxing_msg_default_status">Za branje postavite črtno kodo znotraj iskala.</string></file><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-ja/values-ja.xml" qualifiers="ja"><string name="zxing_app_name">QRコードスキャナー</string><string name="zxing_button_ok">OK</string><string name="zxing_msg_camera_framework_bug">Androidのカメラに問題が発生しました。デバイスを再起動する必要があります。</string><string name="zxing_msg_default_status">QRコードを画面の読み取り範囲内に写すとスキャンします。</string></file><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-he/values-he.xml" qualifiers="he"><string name="zxing_app_name">סורק ברקודים</string><string name="zxing_button_ok">אישור</string><string name="zxing_msg_camera_framework_bug">סליחה, מצלמת האנדרואיד נתקלה בבעיה. ייתכן שיהיה עליך להפעיל מחדש את המכשיר.</string><string name="zxing_msg_default_status">הצב ברקוד בתוך המלבן כדי לסרוק אותו.</string></file><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-es/values-es.xml" qualifiers="es"><string name="zxing_app_name">Barcode Scanner</string><string name="zxing_button_ok">OK</string><string name="zxing_msg_camera_framework_bug">Lo sentimos, la cámara de Android ha encontrado un problema. Es posible que necesite reiniciar el dispositivo.</string><string name="zxing_msg_default_status">Coloque un código de barras en el interior del rectángulo del visor para escanear.</string></file><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-ca/values-ca.xml" qualifiers="ca"><string name="zxing_app_name">Barcode Scanner</string><string name="zxing_button_ok">D\'acord</string><string name="zxing_msg_camera_framework_bug">S\'ha produït un problema amb la càmera de l\'Android. Potser haureu de reiniciar el dispositiu.</string><string name="zxing_msg_default_status">Poseu un codi de barres dins el rectangle per escanejar-lo.</string></file><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-pl/values-pl.xml" qualifiers="pl"><string name="zxing_app_name">Barcode Scanner</string><string name="zxing_button_ok">OK</string><string name="zxing_msg_camera_framework_bug">Przepraszamy, aparat Android napotkał problem. Może wystąpić potrzeba ponownego uruchomienia urządzenia.</string><string name="zxing_msg_default_status">Umieść kod paskowy w prostokącie wizjera aby zeskanować.</string></file><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values/values.xml" qualifiers=""><color name="zxing_custom_possible_result_points">#903A89CF</color><color name="zxing_custom_result_view">#b0000000</color><color name="zxing_custom_viewfinder_laser">#1976D2</color><color name="zxing_custom_viewfinder_mask">#60000000</color><color name="zxing_possible_result_points">#c0ffbd21</color><color name="zxing_result_view">#b0000000</color><color name="zxing_status_text">#ffffffff</color><color name="zxing_transparent">#00000000</color><color name="zxing_viewfinder_laser">#ffcc0000</color><color name="zxing_viewfinder_mask">#60000000</color><item name="zxing_back_button" type="id"/><item name="zxing_camera_closed" type="id"/><item name="zxing_camera_error" type="id"/><item name="zxing_decode" type="id"/><item name="zxing_decode_failed" type="id"/><item name="zxing_decode_succeeded" type="id"/><item name="zxing_possible_result_points" type="id"/><item name="zxing_preview_failed" type="id"/><item name="zxing_prewiew_size_ready" type="id"/><string name="app_version" translatable="false">null</string><string name="define_zxingandroidembedded" translatable="false"/><string name="library_zxingandroidembedded_author" translatable="false">JourneyApps</string><string name="library_zxingandroidembedded_authorWebsite" translatable="false">https://journeyapps.com/</string><string name="library_zxingandroidembedded_isOpenSource" translatable="false">true</string><string name="library_zxingandroidembedded_libraryDescription" translatable="false">Barcode scanning library for Android, using ZXing for decoding.</string><string name="library_zxingandroidembedded_libraryName" translatable="false">ZXing Android Embedded</string><string name="library_zxingandroidembedded_libraryVersion" translatable="false"/><string name="library_zxingandroidembedded_libraryWebsite" translatable="false">https://github.com/journeyapps/zxing-android-embedded</string><string name="library_zxingandroidembedded_licenseId" translatable="false">apache_2_0</string><string name="library_zxingandroidembedded_repositoryLink" translatable="false">https://github.com/journeyapps/zxing-android-embedded</string><string name="zxing_app_name">Barcode Scanner</string><string name="zxing_button_ok">OK</string><string name="zxing_msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may need to restart the device.</string><string name="zxing_msg_default_status">Place a barcode inside the viewfinder rectangle to scan it.</string><style name="zxing_CaptureTheme" parent="android:Theme.Holo.NoActionBar.Fullscreen">
+  </style><declare-styleable name="zxing_camera_preview">
+    <attr format="dimension" name="zxing_framing_rect_width"/>
+    <attr format="dimension" name="zxing_framing_rect_height"/>
+    <attr format="boolean" name="zxing_use_texture_view"/>
+    <attr format="enum" name="zxing_preview_scaling_strategy">
+      <enum name="centerCrop" value="1"/>
+      <enum name="fitCenter" value="2"/>
+      <enum name="fitXY" value="3"/>
+    </attr>
+  </declare-styleable><declare-styleable name="zxing_finder">
+    <attr format="color" name="zxing_possible_result_points"/>
+    <attr format="color" name="zxing_result_view"/>
+    <attr format="color" name="zxing_viewfinder_laser"/>
+    <attr format="color" name="zxing_viewfinder_mask"/>
+    <attr format="boolean" name="zxing_viewfinder_laser_visibility"/>
+  </declare-styleable><declare-styleable name="zxing_view">
+    <attr format="reference" name="zxing_scanner_layout"/>
+  </declare-styleable></file><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-zh-rCN/values-zh-rCN.xml" qualifiers="zh-rCN"><string name="zxing_app_name">条码扫描器</string><string name="zxing_button_ok">确定</string><string name="zxing_msg_camera_framework_bug">抱歉，Android相机出现问题。您可能需要重启设备。</string><string name="zxing_msg_default_status">请将条码置于取景框内扫描。  </string></file><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-ar/values-ar.xml" qualifiers="ar"><string name="zxing_app_name">ماسح الرمز الشريطي</string><string name="zxing_button_ok">موافق</string><string name="zxing_msg_camera_framework_bug">عفوا، حدثت مشكلة في كاميرا جهاز Android. قد تحتاج إلى إعادة تشغيل الجهاز.</string><string name="zxing_msg_default_status">قم بوضع الرمز الشريطي داخل حدود صورة الكاميرا ليتم مسحه.</string></file><file path="/home/codespace/.gradle/caches/transforms-4/4ad2d4566a50f3305cfed6a82e4b3f55/transformed/zxing-android-embedded-4.3.0/res/values-pt/values-pt.xml" qualifiers="pt"><string name="zxing_app_name">Barcode Scanner</string><string name="zxing_button_ok">OK</string><string name="zxing_msg_camera_framework_bug">Desculpe, a câmera do Android encontrou um problema. Poderá precisar de reiniciar o dispositivo.</string><string name="zxing_msg_default_status">Alinhar código de barras com o exemplo para ser lido.</string></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="net.java.dev.jna:jna:5.13.0$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/50d7fda974f22297f7325985271e5e75/transformed/jna-5.13.0/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="net.java.dev.jna:jna:5.13.0" from-dependency="true" generated-set="net.java.dev.jna:jna:5.13.0$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/50d7fda974f22297f7325985271e5e75/transformed/jna-5.13.0/res"><file path="/home/codespace/.gradle/caches/transforms-4/50d7fda974f22297f7325985271e5e75/transformed/jna-5.13.0/res/values/values.xml" qualifiers=""><string name="jna_library_appname">JNA bindings</string></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.arch.core:core-runtime:2.2.0$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/0c9f80eaf39fed91acf33224ae097928/transformed/core-runtime-2.2.0/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.arch.core:core-runtime:2.2.0" from-dependency="true" generated-set="androidx.arch.core:core-runtime:2.2.0$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/0c9f80eaf39fed91acf33224ae097928/transformed/core-runtime-2.2.0/res"><file path="/home/codespace/.gradle/caches/transforms-4/0c9f80eaf39fed91acf33224ae097928/transformed/core-runtime-2.2.0/res/values/values.xml" qualifiers=""/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.startup:startup-runtime:1.1.1$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/a14ad7993bd5abb7f340172a31e8afa8/transformed/startup-runtime-1.1.1/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.startup:startup-runtime:1.1.1" from-dependency="true" generated-set="androidx.startup:startup-runtime:1.1.1$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/a14ad7993bd5abb7f340172a31e8afa8/transformed/startup-runtime-1.1.1/res"><file path="/home/codespace/.gradle/caches/transforms-4/a14ad7993bd5abb7f340172a31e8afa8/transformed/startup-runtime-1.1.1/res/values/values.xml" qualifiers=""><string name="androidx_startup" translatable="false">androidx.startup</string></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.profileinstaller:profileinstaller:1.3.1$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.profileinstaller:profileinstaller:1.3.1" from-dependency="true" generated-set="androidx.profileinstaller:profileinstaller:1.3.1$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/res"><file path="/home/codespace/.gradle/caches/transforms-4/b27660ccabe04d5560de9b5a64cfc747/transformed/profileinstaller-1.3.1/res/values/values.xml" qualifiers=""/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.annotation:annotation-experimental:1.4.0$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/fb400e365936c05c64f9c915ef7d232b/transformed/annotation-experimental-1.4.0/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.annotation:annotation-experimental:1.4.0" from-dependency="true" generated-set="androidx.annotation:annotation-experimental:1.4.0$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/fb400e365936c05c64f9c915ef7d232b/transformed/annotation-experimental-1.4.0/res"><file path="/home/codespace/.gradle/caches/transforms-4/fb400e365936c05c64f9c915ef7d232b/transformed/annotation-experimental-1.4.0/res/values/values.xml" qualifiers=""/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.core:core-ktx:1.13.1$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/302b6e6f7f5984df9b4e15b64fdfdb7a/transformed/core-ktx-1.13.1/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.core:core-ktx:1.13.1" from-dependency="true" generated-set="androidx.core:core-ktx:1.13.1$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/302b6e6f7f5984df9b4e15b64fdfdb7a/transformed/core-ktx-1.13.1/res"><file path="/home/codespace/.gradle/caches/transforms-4/302b6e6f7f5984df9b4e15b64fdfdb7a/transformed/core-ktx-1.13.1/res/values/values.xml" qualifiers=""/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/efd168de4d95d865b9dc2c83495f828c/transformed/lifecycle-viewmodel-savedstate-2.6.2/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2" from-dependency="true" generated-set="androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/efd168de4d95d865b9dc2c83495f828c/transformed/lifecycle-viewmodel-savedstate-2.6.2/res"><file path="/home/codespace/.gradle/caches/transforms-4/efd168de4d95d865b9dc2c83495f828c/transformed/lifecycle-viewmodel-savedstate-2.6.2/res/values/values.xml" qualifiers=""/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-runtime:2.6.2$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/75ebc45896ca2429fb42fc3f52a43023/transformed/lifecycle-runtime-2.6.2/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-runtime:2.6.2" from-dependency="true" generated-set="androidx.lifecycle:lifecycle-runtime:2.6.2$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/75ebc45896ca2429fb42fc3f52a43023/transformed/lifecycle-runtime-2.6.2/res"><file path="/home/codespace/.gradle/caches/transforms-4/75ebc45896ca2429fb42fc3f52a43023/transformed/lifecycle-runtime-2.6.2/res/values/values.xml" qualifiers=""><id name="view_tree_lifecycle_owner"/></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-livedata-core:2.6.2$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/39a2844ab4ef7a33dae24e7c3ce04173/transformed/lifecycle-livedata-core-2.6.2/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-livedata-core:2.6.2" from-dependency="true" generated-set="androidx.lifecycle:lifecycle-livedata-core:2.6.2$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/39a2844ab4ef7a33dae24e7c3ce04173/transformed/lifecycle-livedata-core-2.6.2/res"><file path="/home/codespace/.gradle/caches/transforms-4/39a2844ab4ef7a33dae24e7c3ce04173/transformed/lifecycle-livedata-core-2.6.2/res/values/values.xml" qualifiers=""/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-process:2.6.2$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/d1cf4ca3ccde81b23858a9d997c6a88d/transformed/lifecycle-process-2.6.2/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-process:2.6.2" from-dependency="true" generated-set="androidx.lifecycle:lifecycle-process:2.6.2$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/d1cf4ca3ccde81b23858a9d997c6a88d/transformed/lifecycle-process-2.6.2/res"><file path="/home/codespace/.gradle/caches/transforms-4/d1cf4ca3ccde81b23858a9d997c6a88d/transformed/lifecycle-process-2.6.2/res/values/values.xml" qualifiers=""/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-viewmodel:2.6.2$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/f9f11983108f9866097de6b56150bbd1/transformed/lifecycle-viewmodel-2.6.2/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-viewmodel:2.6.2" from-dependency="true" generated-set="androidx.lifecycle:lifecycle-viewmodel:2.6.2$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/f9f11983108f9866097de6b56150bbd1/transformed/lifecycle-viewmodel-2.6.2/res"><file path="/home/codespace/.gradle/caches/transforms-4/f9f11983108f9866097de6b56150bbd1/transformed/lifecycle-viewmodel-2.6.2/res/values/values.xml" qualifiers=""><id name="view_tree_view_model_store_owner"/></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-livedata:2.6.2$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/1b5f3637f7b3b4753721562347d31179/transformed/lifecycle-livedata-2.6.2/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-livedata:2.6.2" from-dependency="true" generated-set="androidx.lifecycle:lifecycle-livedata:2.6.2$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/1b5f3637f7b3b4753721562347d31179/transformed/lifecycle-livedata-2.6.2/res"><file path="/home/codespace/.gradle/caches/transforms-4/1b5f3637f7b3b4753721562347d31179/transformed/lifecycle-livedata-2.6.2/res/values/values.xml" qualifiers=""/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.savedstate:savedstate:1.2.1$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/bc79800d99bfa0795f94af596071a85a/transformed/savedstate-1.2.1/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.savedstate:savedstate:1.2.1" from-dependency="true" generated-set="androidx.savedstate:savedstate:1.2.1$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/bc79800d99bfa0795f94af596071a85a/transformed/savedstate-1.2.1/res"><file path="/home/codespace/.gradle/caches/transforms-4/bc79800d99bfa0795f94af596071a85a/transformed/savedstate-1.2.1/res/values/values.xml" qualifiers=""><id name="view_tree_saved_state_registry_owner"/></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.core:core:1.13.1$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.core:core:1.13.1" from-dependency="true" generated-set="androidx.core:core:1.13.1$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res"><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-b+sr+Latn/values-b+sr+Latn.xml" qualifiers="b+sr+Latn"><string msgid="881409763997275156" name="call_notification_answer_action">"Odgovori"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"Odbij"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"Prekini vezu"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"Dolazni poziv"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"Poziv je u toku"</string><string msgid="59049573811482460" name="call_notification_screening_text">"Proverava se dolazni poziv"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-ky/values-ky.xml" qualifiers="ky"><string msgid="881409763997275156" name="call_notification_answer_action">"Жооп берүү"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"Видео"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"Четке кагуу"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"Чалууну бүтүрүү"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"Кирүүчү чалуу"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"Учурдагы чалуу"</string><string msgid="59049573811482460" name="call_notification_screening_text">"Кирүүчү чалууну иргөө"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-ms/values-ms.xml" qualifiers="ms"><string msgid="881409763997275156" name="call_notification_answer_action">"Jawab"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"Tolak"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"Tamatkan Panggilan"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"Panggilan masuk"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"Panggilan sedang berlangsung"</string><string msgid="59049573811482460" name="call_notification_screening_text">"Menyaring panggilan masuk"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-hu/values-hu.xml" qualifiers="hu"><string msgid="881409763997275156" name="call_notification_answer_action">"Fogadás"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"Videó"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"Elutasítás"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"Befejezés"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"Bejövő hívás"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"Hívás folyamatban"</string><string msgid="59049573811482460" name="call_notification_screening_text">"Bejövő hívás szűrése"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-hi/values-hi.xml" qualifiers="hi"><string msgid="881409763997275156" name="call_notification_answer_action">"जवाब दें"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"वीडियो"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"अस्वीकार करें"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"कॉल काटें"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"आने वाला (इनकमिंग) कॉल"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"पहले से जारी कॉल"</string><string msgid="59049573811482460" name="call_notification_screening_text">"इनकमिंग कॉल को स्क्रीन किया जा रहा है"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-zh-rHK/values-zh-rHK.xml" qualifiers="zh-rHK"><string msgid="881409763997275156" name="call_notification_answer_action">"接聽"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"視像"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"拒接"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"掛斷"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"來電"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"通話中"</string><string msgid="59049573811482460" name="call_notification_screening_text">"正在過濾來電"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-zh-rTW/values-zh-rTW.xml" qualifiers="zh-rTW"><string msgid="881409763997275156" name="call_notification_answer_action">"接聽"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"視訊"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"拒接"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"掛斷"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"來電"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"通話中"</string><string msgid="59049573811482460" name="call_notification_screening_text">"正在過濾來電"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-vi/values-vi.xml" qualifiers="vi"><string msgid="881409763997275156" name="call_notification_answer_action">"Trả lời"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"Từ chối"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"Kết thúc"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"Cuộc gọi đến"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"Cuộc gọi đang thực hiện"</string><string msgid="59049573811482460" name="call_notification_screening_text">"Đang sàng lọc cuộc gọi đến"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-gl/values-gl.xml" qualifiers="gl"><string msgid="881409763997275156" name="call_notification_answer_action">"Contestar"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"Vídeo"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"Rexeitar"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"Colgar"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"Chamada entrante"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"Chamada en curso"</string><string msgid="59049573811482460" name="call_notification_screening_text">"Filtrando chamada entrante"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">">999"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-da/values-da.xml" qualifiers="da"><string msgid="881409763997275156" name="call_notification_answer_action">"Besvar"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"Afvis"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"Læg på"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"Indgående opkald"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"Igangværende opkald"</string><string msgid="59049573811482460" name="call_notification_screening_text">"Et indgående opkald screenes"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-ko/values-ko.xml" qualifiers="ko"><string msgid="881409763997275156" name="call_notification_answer_action">"통화"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"동영상"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"거절"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"전화 끊기"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"수신 전화"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"진행 중인 통화"</string><string msgid="59049573811482460" name="call_notification_screening_text">"수신 전화 검사 중"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-mn/values-mn.xml" qualifiers="mn"><string msgid="881409763997275156" name="call_notification_answer_action">"Хариулах"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"Видео"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"Татгалзах"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"Таслах"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"Ирсэн дуудлага"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"Дуудлага хийгдэж байна"</string><string msgid="59049573811482460" name="call_notification_screening_text">"Ирсэн дуудлагыг харуулж байна"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-es-rUS/values-es-rUS.xml" qualifiers="es-rUS"><string msgid="881409763997275156" name="call_notification_answer_action">"Responder"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"Rechazar"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"Colgar"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"Llamada entrante"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"Llamada en curso"</string><string msgid="59049573811482460" name="call_notification_screening_text">"Filtrando una llamada entrante"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-te/values-te.xml" qualifiers="te"><string msgid="881409763997275156" name="call_notification_answer_action">"పికప్ చేయండి"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"వీడియో కాల్"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"కట్ చేయండి"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"ముగించండి"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"ఇన్‌కమింగ్ కాల్"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"కాల్ కొనసాగుతోంది"</string><string msgid="59049573811482460" name="call_notification_screening_text">"ఇన్‌కమింగ్ కాల్‌ను స్క్రీన్ చేయండి"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-my/values-my.xml" qualifiers="my"><string msgid="881409763997275156" name="call_notification_answer_action">"ဖုန်းကိုင်ရန်"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"ဗီဒီယို"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"ငြင်းပယ်ရန်"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"ဖုန်းချရန်"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"အဝင်ခေါ်ဆိုမှု"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"လက်ရှိခေါ်ဆိုမှု"</string><string msgid="59049573811482460" name="call_notification_screening_text">"အဝင်ခေါ်ဆိုမှုကို စစ်ဆေးနေသည်"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"၉၉၉+"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-lo/values-lo.xml" qualifiers="lo"><string msgid="881409763997275156" name="call_notification_answer_action">"ຮັບສາຍ"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"ວິດີໂອ"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"ປະຕິເສດ"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"ວາງສາຍ"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"ສາຍໂທເຂົ້າ"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"ສາຍໂທອອກ"</string><string msgid="59049573811482460" name="call_notification_screening_text">"ກຳລັງກວດສອບສາຍໂທເຂົ້າ"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-en-rCA/values-en-rCA.xml" qualifiers="en-rCA"><string msgid="881409763997275156" name="call_notification_answer_action">"Answer"</string><string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string><string msgid="3229508546291798546" name="call_notification_decline_action">"Decline"</string><string msgid="2659457946726154263" name="call_notification_hang_up_action">"Hang Up"</string><string msgid="6107532579223922871" name="call_notification_incoming_text">"Incoming call"</string><string msgid="8623827134497363134" name="call_notification_ongoing_text">"Ongoing call"</string><string msgid="59049573811482460" name="call_notification_screening_text">"Screening an incoming call"</string><string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string></file><file path="/home/codespace/.gradle/caches/transforms-4/931a813c0b1c56b2e997d06cbf8e44a0/transformed/core-1.13.1/res/values-v21/values-v21.xml" qualifiers="v21"><color name="notification_action_color_filter">@color/androidx_core_secondary_text_default_material_light</color><dimen name="notification_content_margin_start">0dp</dimen><dimen name="notification_main_column_padding_top">0dp</dimen><dimen name="notification_media_narrow_margin">12dp</dimen><style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.Material.Notification"/><style name="TextAppearance.Compat.Notification.Info" parent="@android:style/TextAppearance.Material.Notification.Info"/><style name="TextAppearance.Compat.Notification.Time" parent="@android:style/TextAppearance.Material.Notification.Time"/><style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.Material.Notification.Title"/><style name="Widget.Compat.NotificationActionContainer" parent="">
         <item name="android:background">@drawable/notification_action_background</item>
     </style><style name="Widget.Compat.NotificationActionText" parent="">
         <item name="android:textAppearance">?android:attr/textAppearanceButton</item>
@@ -2739,94 +2757,15 @@
 
         
         <attr name="android:tileMode"/>
-    </declare-styleable><declare-styleable name="AnimatedStateListDrawableCompat">
-        
-        <attr name="android:visible"/>
-        
-        <attr name="android:variablePadding"/>
-        
-        <attr name="android:constantSize"/>
-        
-        <attr name="android:dither"/>
-        
-        <attr name="android:enterFadeDuration"/>
-        
-        <attr name="android:exitFadeDuration"/>
-        
-        
-    </declare-styleable><declare-styleable name="ColorStateListItem">
-        
-        <attr name="android:color"/>
-        
-        <attr format="float" name="alpha"/>
-        <attr name="android:alpha"/>
-        
-        <attr format="float" name="lStar"/>
-        <attr name="android:lStar"/>
-    </declare-styleable><declare-styleable name="Spinner">
-        
-        <attr name="android:prompt"/>
-        
-        <attr name="popupTheme"/>
-        
-        <attr name="android:popupBackground"/>
-        
-        <attr name="android:dropDownWidth"/>
-        
-        <attr name="android:entries"/>
-    </declare-styleable><declare-styleable name="PopupWindow">
-        
-        <attr format="boolean" name="overlapAnchor"/>
-        <attr name="android:popupBackground"/>
-        <attr name="android:popupAnimationStyle"/>
     </declare-styleable><declare-styleable name="AnimatedStateListDrawableItem">
         
         <attr name="android:drawable"/>
         
         <attr name="android:id"/>
-    </declare-styleable><declare-styleable name="DrawerArrowToggle">
-        
-        <attr format="color" name="color"/>
-        
-        <attr format="boolean" name="spinBars"/>
-        
-        <attr format="dimension" name="drawableSize"/>
-        
-        <attr format="dimension" name="gapBetweenBars"/>
-        
-        <attr format="dimension" name="arrowHeadLength"/>
-        
-        <attr format="dimension" name="arrowShaftLength"/>
-        
-        <attr format="dimension" name="barLength"/>
-        
-        <attr format="dimension" name="thickness"/>
-    </declare-styleable><declare-styleable name="ActionBarLayout">
-        <attr name="android:layout_gravity"/>
-    </declare-styleable><declare-styleable name="StateListDrawable">
-        
-        <attr name="android:visible"/>
-        
-        <attr name="android:variablePadding"/>
-        
-        <attr name="android:constantSize"/>
-        
-        <attr name="android:dither"/>
-        
-        <attr name="android:enterFadeDuration"/>
-        
-        <attr name="android:exitFadeDuration"/>
-        
-        
     </declare-styleable><declare-styleable name="Fragment">
         <attr name="android:name"/>
         <attr name="android:id"/>
         <attr name="android:tag"/>
-    </declare-styleable><declare-styleable name="ActivityChooserView">
-        
-        <attr format="string" name="initialActivityCount"/>
-        
-        <attr format="reference" name="expandActivityOverflowButtonDrawable"/>
     </declare-styleable><declare-styleable name="AppCompatEmojiHelper">
 
     </declare-styleable><declare-styleable name="GradientColorItem">
@@ -3196,37 +3135,22 @@
         
         <attr format="reference" name="listChoiceIndicatorMultipleAnimated"/>
 
-    </declare-styleable><declare-styleable name="ViewStubCompat">
-        
-        <attr name="android:layout"/>
-        
-        <attr name="android:inflatedId"/>
-        <attr name="android:id"/>
-    </declare-styleable><declare-styleable name="ListPopupWindow">
-        
-        <attr name="android:dropDownVerticalOffset"/>
-        
-        <attr name="android:dropDownHorizontalOffset"/>
-    </declare-styleable><declare-styleable name="TextAppearance">
-        <attr name="android:textSize"/>
-        <attr name="android:textColor"/>
-        <attr name="android:textColorHint"/>
-        <attr name="android:textColorLink"/>
-        <attr name="android:textStyle"/>
-        <attr name="android:textFontWeight"/>
-        <attr name="android:typeface"/>
-        <attr name="android:fontFamily"/>
-        <attr name="fontFamily"/>
-        <attr name="textAllCaps"/>
-        
-        <attr name="textLocale"/>
-        <attr name="android:shadowColor"/>
-        <attr name="android:shadowDy"/>
-        <attr name="android:shadowDx"/>
-        <attr name="android:shadowRadius"/>
-        
-        <attr name="fontVariationSettings"/>
-    </declare-styleable><declare-styleable name="MenuView">
+    </declare-styleable><declare-styleable name="zxing_finder">
+    <attr format="color" name="zxing_possible_result_points"/>
+    <attr format="color" name="zxing_result_view"/>
+    <attr format="color" name="zxing_viewfinder_laser"/>
+    <attr format="color" name="zxing_viewfinder_mask"/>
+    <attr format="boolean" name="zxing_viewfinder_laser_visibility"/>
+  </declare-styleable><declare-styleable name="zxing_camera_preview">
+    <attr format="dimension" name="zxing_framing_rect_width"/>
+    <attr format="dimension" name="zxing_framing_rect_height"/>
+    <attr format="boolean" name="zxing_use_texture_view"/>
+    <attr format="enum" name="zxing_preview_scaling_strategy">
+      <enum name="centerCrop" value="1"/>
+      <enum name="fitCenter" value="2"/>
+      <enum name="fitXY" value="3"/>
+    </attr>
+  </declare-styleable><declare-styleable name="MenuView">
         
         <attr name="android:itemTextAppearance"/>
         
@@ -3324,26 +3248,6 @@
         <attr format="dimension" name="elevation"/>
         
         <attr format="reference" name="popupTheme"/>
-    </declare-styleable><declare-styleable name="MenuGroup">
-
-        
-        <attr name="android:id"/>
-
-        
-        <attr name="android:menuCategory"/>
-
-        
-        <attr name="android:orderInCategory"/>
-
-        
-        <attr name="android:checkableBehavior"/>
-
-        
-        <attr name="android:visible"/>
-
-        
-        <attr name="android:enabled"/>
-
     </declare-styleable><declare-styleable name="ActionMenuItemView">
         <attr name="android:minWidth"/>
     </declare-styleable><declare-styleable name="Toolbar">
@@ -3408,29 +3312,6 @@
         <attr name="android:layout_height"/>
         <attr name="android:layout_weight"/>
         <attr name="android:layout_gravity"/>
-    </declare-styleable><declare-styleable name="FontFamily">
-        
-        <attr format="string" name="fontProviderAuthority"/>
-        
-        <attr format="string" name="fontProviderPackage"/>
-        
-        <attr format="string" name="fontProviderQuery"/>
-        
-        <attr format="reference" name="fontProviderCerts"/>
-        
-        <attr name="fontProviderFetchStrategy">
-            
-            <enum name="blocking" value="0"/>
-            
-            <enum name="async" value="1"/>
-        </attr>
-        
-        <attr format="integer" name="fontProviderFetchTimeout">
-            
-            <enum name="forever" value="-1"/>
-        </attr>
-        
-        <attr format="string" name="fontProviderSystemFontFamily"/>
     </declare-styleable><declare-styleable name="Capability">
         
         <attr format="reference" name="queryPatterns"/>
@@ -3518,6 +3399,277 @@
         </attr>
         
         <attr format="boolean" name="emojiCompatEnabled"/>
+    </declare-styleable><declare-styleable name="ButtonBarLayout">
+        
+        <attr format="boolean" name="allowStacking"/>
+    </declare-styleable><declare-styleable name="ViewBackgroundHelper">
+        <attr name="android:background"/>
+        
+        <attr format="color" name="backgroundTint"/>
+
+        
+        <attr name="backgroundTintMode">
+            
+            <enum name="src_over" value="3"/>
+            
+            <enum name="src_in" value="5"/>
+            
+            <enum name="src_atop" value="9"/>
+            
+            <enum name="multiply" value="14"/>
+            
+            <enum name="screen" value="15"/>
+            
+            <enum name="add" value="16"/>
+        </attr>
+    </declare-styleable><declare-styleable name="AppCompatImageView">
+        <attr name="android:src"/>
+        
+        <attr format="reference" name="srcCompat"/>
+
+        
+        <attr format="color" name="tint"/>
+
+        
+        <attr name="tintMode">
+            
+            <enum name="src_over" value="3"/>
+            
+            <enum name="src_in" value="5"/>
+            
+            <enum name="src_atop" value="9"/>
+            
+            <enum name="multiply" value="14"/>
+            
+            <enum name="screen" value="15"/>
+            
+            <enum name="add" value="16"/>
+        </attr>
+    </declare-styleable><declare-styleable name="PopupWindowBackgroundState">
+        
+        <attr format="boolean" name="state_above_anchor"/>
+    </declare-styleable><declare-styleable name="zxing_view">
+    <attr format="reference" name="zxing_scanner_layout"/>
+  </declare-styleable><declare-styleable name="ActionMode">
+        
+        <attr name="titleTextStyle"/>
+        
+        <attr name="subtitleTextStyle"/>
+        
+        <attr name="background"/>
+        
+        <attr name="backgroundSplit"/>
+        
+        <attr name="height"/>
+        
+        <attr format="reference" name="closeItemLayout"/>
+    </declare-styleable><declare-styleable name="SwitchCompat">
+        
+        <attr name="android:thumb"/>
+        
+        <attr format="color" name="thumbTint"/>
+        
+        <attr name="thumbTintMode">
+            
+            <enum name="src_over" value="3"/>
+            
+            <enum name="src_in" value="5"/>
+            
+            <enum name="src_atop" value="9"/>
+            
+            <enum name="multiply" value="14"/>
+            
+            <enum name="screen" value="15"/>
+            
+            <enum name="add" value="16"/>
+        </attr>
+        
+        <attr format="reference" name="track"/>
+        
+        <attr format="color" name="trackTint"/>
+        
+        <attr name="trackTintMode">
+            
+            <enum name="src_over" value="3"/>
+            
+            <enum name="src_in" value="5"/>
+            
+            <enum name="src_atop" value="9"/>
+            
+            <enum name="multiply" value="14"/>
+            
+            <enum name="screen" value="15"/>
+            
+            <enum name="add" value="16"/>
+        </attr>
+        
+        <attr name="android:textOn"/>
+        
+        <attr name="android:textOff"/>
+        
+        <attr format="dimension" name="thumbTextPadding"/>
+        
+        <attr format="reference" name="switchTextAppearance"/>
+        
+        <attr format="dimension" name="switchMinWidth"/>
+        
+        <attr format="dimension" name="switchPadding"/>
+        
+        <attr format="boolean" name="splitTrack"/>
+        
+        <attr format="boolean" name="showText"/>
+    </declare-styleable><declare-styleable name="AnimatedStateListDrawableCompat">
+        
+        <attr name="android:visible"/>
+        
+        <attr name="android:variablePadding"/>
+        
+        <attr name="android:constantSize"/>
+        
+        <attr name="android:dither"/>
+        
+        <attr name="android:enterFadeDuration"/>
+        
+        <attr name="android:exitFadeDuration"/>
+        
+        
+    </declare-styleable><declare-styleable name="ColorStateListItem">
+        
+        <attr name="android:color"/>
+        
+        <attr format="float" name="alpha"/>
+        <attr name="android:alpha"/>
+        
+        <attr format="float" name="lStar"/>
+        <attr name="android:lStar"/>
+    </declare-styleable><declare-styleable name="Spinner">
+        
+        <attr name="android:prompt"/>
+        
+        <attr name="popupTheme"/>
+        
+        <attr name="android:popupBackground"/>
+        
+        <attr name="android:dropDownWidth"/>
+        
+        <attr name="android:entries"/>
+    </declare-styleable><declare-styleable name="PopupWindow">
+        
+        <attr format="boolean" name="overlapAnchor"/>
+        <attr name="android:popupBackground"/>
+        <attr name="android:popupAnimationStyle"/>
+    </declare-styleable><declare-styleable name="DrawerArrowToggle">
+        
+        <attr format="color" name="color"/>
+        
+        <attr format="boolean" name="spinBars"/>
+        
+        <attr format="dimension" name="drawableSize"/>
+        
+        <attr format="dimension" name="gapBetweenBars"/>
+        
+        <attr format="dimension" name="arrowHeadLength"/>
+        
+        <attr format="dimension" name="arrowShaftLength"/>
+        
+        <attr format="dimension" name="barLength"/>
+        
+        <attr format="dimension" name="thickness"/>
+    </declare-styleable><declare-styleable name="ActionBarLayout">
+        <attr name="android:layout_gravity"/>
+    </declare-styleable><declare-styleable name="StateListDrawable">
+        
+        <attr name="android:visible"/>
+        
+        <attr name="android:variablePadding"/>
+        
+        <attr name="android:constantSize"/>
+        
+        <attr name="android:dither"/>
+        
+        <attr name="android:enterFadeDuration"/>
+        
+        <attr name="android:exitFadeDuration"/>
+        
+        
+    </declare-styleable><declare-styleable name="ActivityChooserView">
+        
+        <attr format="string" name="initialActivityCount"/>
+        
+        <attr format="reference" name="expandActivityOverflowButtonDrawable"/>
+    </declare-styleable><declare-styleable name="ViewStubCompat">
+        
+        <attr name="android:layout"/>
+        
+        <attr name="android:inflatedId"/>
+        <attr name="android:id"/>
+    </declare-styleable><declare-styleable name="ListPopupWindow">
+        
+        <attr name="android:dropDownVerticalOffset"/>
+        
+        <attr name="android:dropDownHorizontalOffset"/>
+    </declare-styleable><declare-styleable name="TextAppearance">
+        <attr name="android:textSize"/>
+        <attr name="android:textColor"/>
+        <attr name="android:textColorHint"/>
+        <attr name="android:textColorLink"/>
+        <attr name="android:textStyle"/>
+        <attr name="android:textFontWeight"/>
+        <attr name="android:typeface"/>
+        <attr name="android:fontFamily"/>
+        <attr name="fontFamily"/>
+        <attr name="textAllCaps"/>
+        
+        <attr name="textLocale"/>
+        <attr name="android:shadowColor"/>
+        <attr name="android:shadowDy"/>
+        <attr name="android:shadowDx"/>
+        <attr name="android:shadowRadius"/>
+        
+        <attr name="fontVariationSettings"/>
+    </declare-styleable><declare-styleable name="MenuGroup">
+
+        
+        <attr name="android:id"/>
+
+        
+        <attr name="android:menuCategory"/>
+
+        
+        <attr name="android:orderInCategory"/>
+
+        
+        <attr name="android:checkableBehavior"/>
+
+        
+        <attr name="android:visible"/>
+
+        
+        <attr name="android:enabled"/>
+
+    </declare-styleable><declare-styleable name="FontFamily">
+        
+        <attr format="string" name="fontProviderAuthority"/>
+        
+        <attr format="string" name="fontProviderPackage"/>
+        
+        <attr format="string" name="fontProviderQuery"/>
+        
+        <attr format="reference" name="fontProviderCerts"/>
+        
+        <attr name="fontProviderFetchStrategy">
+            
+            <enum name="blocking" value="0"/>
+            
+            <enum name="async" value="1"/>
+        </attr>
+        
+        <attr format="integer" name="fontProviderFetchTimeout">
+            
+            <enum name="forever" value="-1"/>
+        </attr>
+        
+        <attr format="string" name="fontProviderSystemFontFamily"/>
     </declare-styleable><declare-styleable name="MenuItem">
 
         
@@ -3627,29 +3779,6 @@
             <enum name="add" value="16"/>
         </attr>
 
-    </declare-styleable><declare-styleable name="ButtonBarLayout">
-        
-        <attr format="boolean" name="allowStacking"/>
-    </declare-styleable><declare-styleable name="ViewBackgroundHelper">
-        <attr name="android:background"/>
-        
-        <attr format="color" name="backgroundTint"/>
-
-        
-        <attr name="backgroundTintMode">
-            
-            <enum name="src_over" value="3"/>
-            
-            <enum name="src_in" value="5"/>
-            
-            <enum name="src_atop" value="9"/>
-            
-            <enum name="multiply" value="14"/>
-            
-            <enum name="screen" value="15"/>
-            
-            <enum name="add" value="16"/>
-        </attr>
     </declare-styleable><declare-styleable name="AnimatedStateListDrawableTransition">
         
         <attr name="android:fromId"/>
@@ -3659,29 +3788,6 @@
         <attr name="android:drawable"/>
         
         <attr name="android:reversible"/>
-    </declare-styleable><declare-styleable name="AppCompatImageView">
-        <attr name="android:src"/>
-        
-        <attr format="reference" name="srcCompat"/>
-
-        
-        <attr format="color" name="tint"/>
-
-        
-        <attr name="tintMode">
-            
-            <enum name="src_over" value="3"/>
-            
-            <enum name="src_in" value="5"/>
-            
-            <enum name="src_atop" value="9"/>
-            
-            <enum name="multiply" value="14"/>
-            
-            <enum name="screen" value="15"/>
-            
-            <enum name="add" value="16"/>
-        </attr>
     </declare-styleable><declare-styleable name="View">
         
         <attr format="dimension" name="paddingStart"/>
@@ -3693,9 +3799,6 @@
         <attr format="reference" name="theme"/>
         
         <attr name="android:theme"/>
-    </declare-styleable><declare-styleable name="PopupWindowBackgroundState">
-        
-        <attr format="boolean" name="state_above_anchor"/>
     </declare-styleable><declare-styleable name="FontFamilyFont">
         
         <attr name="fontStyle">
@@ -3773,19 +3876,6 @@
         
         <attr format="reference" name="submitBackground"/>
         <attr name="android:focusable"/>
-    </declare-styleable><declare-styleable name="ActionMode">
-        
-        <attr name="titleTextStyle"/>
-        
-        <attr name="subtitleTextStyle"/>
-        
-        <attr name="background"/>
-        
-        <attr name="backgroundSplit"/>
-        
-        <attr name="height"/>
-        
-        <attr format="reference" name="closeItemLayout"/>
     </declare-styleable><declare-styleable name="ActionMenuView">
         
     </declare-styleable><declare-styleable name="CompoundButton">
@@ -3810,61 +3900,6 @@
             
             <enum name="add" value="16"/>
         </attr>
-    </declare-styleable><declare-styleable name="SwitchCompat">
-        
-        <attr name="android:thumb"/>
-        
-        <attr format="color" name="thumbTint"/>
-        
-        <attr name="thumbTintMode">
-            
-            <enum name="src_over" value="3"/>
-            
-            <enum name="src_in" value="5"/>
-            
-            <enum name="src_atop" value="9"/>
-            
-            <enum name="multiply" value="14"/>
-            
-            <enum name="screen" value="15"/>
-            
-            <enum name="add" value="16"/>
-        </attr>
-        
-        <attr format="reference" name="track"/>
-        
-        <attr format="color" name="trackTint"/>
-        
-        <attr name="trackTintMode">
-            
-            <enum name="src_over" value="3"/>
-            
-            <enum name="src_in" value="5"/>
-            
-            <enum name="src_atop" value="9"/>
-            
-            <enum name="multiply" value="14"/>
-            
-            <enum name="screen" value="15"/>
-            
-            <enum name="add" value="16"/>
-        </attr>
-        
-        <attr name="android:textOn"/>
-        
-        <attr name="android:textOff"/>
-        
-        <attr format="dimension" name="thumbTextPadding"/>
-        
-        <attr format="reference" name="switchTextAppearance"/>
-        
-        <attr format="dimension" name="switchMinWidth"/>
-        
-        <attr format="dimension" name="switchPadding"/>
-        
-        <attr format="boolean" name="splitTrack"/>
-        
-        <attr format="boolean" name="showText"/>
     </declare-styleable><declare-styleable name="AppCompatTextHelper">
         <attr name="android:drawableLeft"/>
         <attr name="android:drawableTop"/>

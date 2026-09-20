@@ -1,8 +1,7 @@
 package com.meshwallet.app
 
 import android.Manifest
-import android.bluetooth.BluetoothManager
-import android.content.Context
+import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.Build
 import android.os.Bundle
@@ -17,7 +16,6 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var statusText: TextView
     private lateinit var permissionLauncher: androidx.activity.result.ActivityResultLauncher<Array<String>>
-    private var meshWallet: MeshWalletBle? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,18 +25,15 @@ class MainActivity : AppCompatActivity() {
         layout.setPadding(40, 100, 40, 40)
 
         statusText = TextView(this)
-        statusText.text = "Choose your role:"
+        statusText.text = "MeshWallet"
         layout.addView(statusText)
 
-        val payerButton = Button(this)
-        payerButton.text = "I'm the Payer"
-        payerButton.setOnClickListener { startAsRole(isPayer = true) }
-        layout.addView(payerButton)
-
-        val receiverButton = Button(this)
-        receiverButton.text = "I'm the Receiver"
-        receiverButton.setOnClickListener { startAsRole(isPayer = false) }
-        layout.addView(receiverButton)
+        val payButton = Button(this)
+        payButton.text = "Open Wallet (Pay / Scan)"
+        payButton.setOnClickListener {
+            startActivity(Intent(this, PaymentActivity::class.java))
+        }
+        layout.addView(payButton)
 
         setContentView(layout)
 
@@ -46,9 +41,9 @@ class MainActivity : AppCompatActivity() {
             ActivityResultContracts.RequestMultiplePermissions()
         ) { results ->
             if (results.values.all { it }) {
-                statusText.text = "Permissions granted. Tap a role button."
+                statusText.text = "Permissions granted. Ready."
             } else {
-                statusText.text = "Bluetooth permissions are required."
+                statusText.text = "Camera permission is required for QR payments."
             }
         }
 
@@ -56,19 +51,17 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun requiredPermissions(): Array<String> {
-        return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
-            arrayOf(
-                Manifest.permission.BLUETOOTH_SCAN,
-                Manifest.permission.BLUETOOTH_ADVERTISE,
-                Manifest.permission.BLUETOOTH_CONNECT
-            )
+        val perms = mutableListOf(Manifest.permission.CAMERA)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+            perms.add(Manifest.permission.BLUETOOTH_SCAN)
+            perms.add(Manifest.permission.BLUETOOTH_ADVERTISE)
+            perms.add(Manifest.permission.BLUETOOTH_CONNECT)
         } else {
-            arrayOf(
-                Manifest.permission.ACCESS_FINE_LOCATION,
-                Manifest.permission.BLUETOOTH,
-                Manifest.permission.BLUETOOTH_ADMIN
-            )
+            perms.add(Manifest.permission.ACCESS_FINE_LOCATION)
+            perms.add(Manifest.permission.BLUETOOTH)
+            perms.add(Manifest.permission.BLUETOOTH_ADMIN)
         }
+        return perms.toTypedArray()
     }
 
     private fun checkAndRequestPermissions() {
@@ -76,20 +69,9 @@ class MainActivity : AppCompatActivity() {
             ContextCompat.checkSelfPermission(this, it) != PackageManager.PERMISSION_GRANTED
         }
         if (missing.isEmpty()) {
-            statusText.text = "Permissions already granted. Tap a role button."
+            statusText.text = "Permissions already granted. Ready."
         } else {
             permissionLauncher.launch(missing.toTypedArray())
-        }
-    }
-
-    private fun startAsRole(isPayer: Boolean) {
-        val bluetoothManager = getSystemService(Context.BLUETOOTH_SERVICE) as BluetoothManager
-        meshWallet = MeshWalletBle(this, bluetoothManager, statusText)
-
-        if (isPayer) {
-            meshWallet?.startAsPayer()
-        } else {
-            meshWallet?.startAsReceiver()
         }
     }
 }
