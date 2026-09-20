@@ -734,6 +734,10 @@ internal open class UniffiVTableCallbackInterfaceHardwareSigner(
 
 
 
+
+
+
+
 // A JNA Library to expose the extern-C FFI definitions.
 // This is an implementation detail which will be called internally by the public API.
 
@@ -766,6 +770,10 @@ internal interface UniffiLib : Library {
     ): RustBuffer.ByValue
     fun uniffi_mesh_wallet_core_fn_init_callback_vtable_hardwaresigner(`vtable`: UniffiVTableCallbackInterfaceHardwareSigner,
     ): Unit
+    fun uniffi_mesh_wallet_core_fn_func_signed_spend_from_bytes(`data`: RustBuffer.ByValue,uniffi_out_err: UniffiRustCallStatus, 
+    ): RustBuffer.ByValue
+    fun uniffi_mesh_wallet_core_fn_func_signed_spend_to_bytes(`spend`: RustBuffer.ByValue,uniffi_out_err: UniffiRustCallStatus, 
+    ): RustBuffer.ByValue
     fun ffi_mesh_wallet_core_rustbuffer_alloc(`size`: Long,uniffi_out_err: UniffiRustCallStatus, 
     ): RustBuffer.ByValue
     fun ffi_mesh_wallet_core_rustbuffer_from_bytes(`bytes`: ForeignBytes.ByValue,uniffi_out_err: UniffiRustCallStatus, 
@@ -878,6 +886,10 @@ internal interface UniffiLib : Library {
     ): Unit
     fun ffi_mesh_wallet_core_rust_future_complete_void(`handle`: Long,uniffi_out_err: UniffiRustCallStatus, 
     ): Unit
+    fun uniffi_mesh_wallet_core_checksum_func_signed_spend_from_bytes(
+    ): Short
+    fun uniffi_mesh_wallet_core_checksum_func_signed_spend_to_bytes(
+    ): Short
     fun uniffi_mesh_wallet_core_checksum_method_walletcore_receive_spend(
     ): Short
     fun uniffi_mesh_wallet_core_checksum_method_walletcore_spend_next_unit(
@@ -907,6 +919,12 @@ private fun uniffiCheckContractApiVersion(lib: UniffiLib) {
 
 @Suppress("UNUSED_PARAMETER")
 private fun uniffiCheckApiChecksums(lib: UniffiLib) {
+    if (lib.uniffi_mesh_wallet_core_checksum_func_signed_spend_from_bytes() != 50721.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_mesh_wallet_core_checksum_func_signed_spend_to_bytes() != 26587.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
     if (lib.uniffi_mesh_wallet_core_checksum_method_walletcore_receive_spend() != 55335.toShort()) {
         throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
     }
@@ -1591,4 +1609,23 @@ internal object uniffiCallbackInterfaceHardwareSigner {
 
 // The ffiConverter which transforms the Callbacks in to handles to pass to Rust.
 public object FfiConverterTypeHardwareSigner: FfiConverterCallbackInterface<HardwareSigner>()
+    @Throws(WalletException::class) fun `signedSpendFromBytes`(`data`: kotlin.ByteArray): SignedSpendFfi {
+            return FfiConverterTypeSignedSpendFfi.lift(
+    uniffiRustCallWithError(WalletException) { _status ->
+    UniffiLib.INSTANCE.uniffi_mesh_wallet_core_fn_func_signed_spend_from_bytes(
+        FfiConverterByteArray.lower(`data`),_status)
+}
+    )
+    }
+    
+ fun `signedSpendToBytes`(`spend`: SignedSpendFfi): kotlin.ByteArray {
+            return FfiConverterByteArray.lift(
+    uniffiRustCall() { _status ->
+    UniffiLib.INSTANCE.uniffi_mesh_wallet_core_fn_func_signed_spend_to_bytes(
+        FfiConverterTypeSignedSpendFfi.lower(`spend`),_status)
+}
+    )
+    }
+    
+
 
