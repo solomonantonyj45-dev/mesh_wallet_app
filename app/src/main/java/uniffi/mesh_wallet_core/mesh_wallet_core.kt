@@ -56,7 +56,7 @@ open class RustBuffer : Structure() {
     companion object {
         internal fun alloc(size: ULong = 0UL) = uniffiRustCall() { status ->
             // Note: need to convert the size to a `Long` value to make this work with JVM.
-            UniffiLib.INSTANCE.ffi_mesh_wallet_core_rustbuffer_alloc(size.toLong(), status)
+            UniffiLib.INSTANCE.ffi_uniffi_mesh_wallet_core_rustbuffer_alloc(size.toLong(), status)
         }.also {
             if(it.data == null) {
                throw RuntimeException("RustBuffer.alloc() returned null data pointer (size=${size})")
@@ -72,7 +72,7 @@ open class RustBuffer : Structure() {
         }
 
         internal fun free(buf: RustBuffer.ByValue) = uniffiRustCall() { status ->
-            UniffiLib.INSTANCE.ffi_mesh_wallet_core_rustbuffer_free(buf, status)
+            UniffiLib.INSTANCE.ffi_uniffi_mesh_wallet_core_rustbuffer_free(buf, status)
         }
     }
 
@@ -758,151 +758,151 @@ internal interface UniffiLib : Library {
         }
     }
 
-    fun uniffi_mesh_wallet_core_fn_clone_walletcore(`ptr`: Pointer,uniffi_out_err: UniffiRustCallStatus, 
+    fun uniffi_uniffi_mesh_wallet_core_fn_clone_walletcore(`ptr`: Pointer,uniffi_out_err: UniffiRustCallStatus, 
     ): Pointer
-    fun uniffi_mesh_wallet_core_fn_free_walletcore(`ptr`: Pointer,uniffi_out_err: UniffiRustCallStatus, 
+    fun uniffi_uniffi_mesh_wallet_core_fn_free_walletcore(`ptr`: Pointer,uniffi_out_err: UniffiRustCallStatus, 
     ): Unit
-    fun uniffi_mesh_wallet_core_fn_constructor_walletcore_new(`signer`: Long,`maxUnit`: Int,uniffi_out_err: UniffiRustCallStatus, 
+    fun uniffi_uniffi_mesh_wallet_core_fn_constructor_walletcore_new(`signer`: Long,`maxUnit`: Int,uniffi_out_err: UniffiRustCallStatus, 
     ): Pointer
-    fun uniffi_mesh_wallet_core_fn_method_walletcore_receive_spend(`ptr`: Pointer,`spend`: RustBuffer.ByValue,uniffi_out_err: UniffiRustCallStatus, 
+    fun uniffi_uniffi_mesh_wallet_core_fn_method_walletcore_receive_spend(`ptr`: Pointer,`spend`: RustBuffer.ByValue,uniffi_out_err: UniffiRustCallStatus, 
     ): Int
-    fun uniffi_mesh_wallet_core_fn_method_walletcore_spend_next_unit(`ptr`: Pointer,`unitId`: Int,`recipientPubkey`: RustBuffer.ByValue,uniffi_out_err: UniffiRustCallStatus, 
+    fun uniffi_uniffi_mesh_wallet_core_fn_method_walletcore_spend_next_unit(`ptr`: Pointer,`unitId`: Int,`recipientPubkey`: RustBuffer.ByValue,uniffi_out_err: UniffiRustCallStatus, 
     ): RustBuffer.ByValue
-    fun uniffi_mesh_wallet_core_fn_init_callback_vtable_hardwaresigner(`vtable`: UniffiVTableCallbackInterfaceHardwareSigner,
+    fun uniffi_uniffi_mesh_wallet_core_fn_init_callback_vtable_hardwaresigner(`vtable`: UniffiVTableCallbackInterfaceHardwareSigner,
     ): Unit
-    fun uniffi_mesh_wallet_core_fn_func_signed_spend_from_bytes(`data`: RustBuffer.ByValue,uniffi_out_err: UniffiRustCallStatus, 
+    fun uniffi_uniffi_mesh_wallet_core_fn_func_signed_spend_from_bytes(`data`: RustBuffer.ByValue,uniffi_out_err: UniffiRustCallStatus, 
     ): RustBuffer.ByValue
-    fun uniffi_mesh_wallet_core_fn_func_signed_spend_to_bytes(`spend`: RustBuffer.ByValue,uniffi_out_err: UniffiRustCallStatus, 
+    fun uniffi_uniffi_mesh_wallet_core_fn_func_signed_spend_to_bytes(`spend`: RustBuffer.ByValue,uniffi_out_err: UniffiRustCallStatus, 
     ): RustBuffer.ByValue
-    fun ffi_mesh_wallet_core_rustbuffer_alloc(`size`: Long,uniffi_out_err: UniffiRustCallStatus, 
+    fun ffi_uniffi_mesh_wallet_core_rustbuffer_alloc(`size`: Long,uniffi_out_err: UniffiRustCallStatus, 
     ): RustBuffer.ByValue
-    fun ffi_mesh_wallet_core_rustbuffer_from_bytes(`bytes`: ForeignBytes.ByValue,uniffi_out_err: UniffiRustCallStatus, 
+    fun ffi_uniffi_mesh_wallet_core_rustbuffer_from_bytes(`bytes`: ForeignBytes.ByValue,uniffi_out_err: UniffiRustCallStatus, 
     ): RustBuffer.ByValue
-    fun ffi_mesh_wallet_core_rustbuffer_free(`buf`: RustBuffer.ByValue,uniffi_out_err: UniffiRustCallStatus, 
+    fun ffi_uniffi_mesh_wallet_core_rustbuffer_free(`buf`: RustBuffer.ByValue,uniffi_out_err: UniffiRustCallStatus, 
     ): Unit
-    fun ffi_mesh_wallet_core_rustbuffer_reserve(`buf`: RustBuffer.ByValue,`additional`: Long,uniffi_out_err: UniffiRustCallStatus, 
+    fun ffi_uniffi_mesh_wallet_core_rustbuffer_reserve(`buf`: RustBuffer.ByValue,`additional`: Long,uniffi_out_err: UniffiRustCallStatus, 
     ): RustBuffer.ByValue
-    fun ffi_mesh_wallet_core_rust_future_poll_u8(`handle`: Long,`callback`: UniffiRustFutureContinuationCallback,`callbackData`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_poll_u8(`handle`: Long,`callback`: UniffiRustFutureContinuationCallback,`callbackData`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_cancel_u8(`handle`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_cancel_u8(`handle`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_free_u8(`handle`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_free_u8(`handle`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_complete_u8(`handle`: Long,uniffi_out_err: UniffiRustCallStatus, 
+    fun ffi_uniffi_mesh_wallet_core_rust_future_complete_u8(`handle`: Long,uniffi_out_err: UniffiRustCallStatus, 
     ): Byte
-    fun ffi_mesh_wallet_core_rust_future_poll_i8(`handle`: Long,`callback`: UniffiRustFutureContinuationCallback,`callbackData`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_poll_i8(`handle`: Long,`callback`: UniffiRustFutureContinuationCallback,`callbackData`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_cancel_i8(`handle`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_cancel_i8(`handle`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_free_i8(`handle`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_free_i8(`handle`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_complete_i8(`handle`: Long,uniffi_out_err: UniffiRustCallStatus, 
+    fun ffi_uniffi_mesh_wallet_core_rust_future_complete_i8(`handle`: Long,uniffi_out_err: UniffiRustCallStatus, 
     ): Byte
-    fun ffi_mesh_wallet_core_rust_future_poll_u16(`handle`: Long,`callback`: UniffiRustFutureContinuationCallback,`callbackData`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_poll_u16(`handle`: Long,`callback`: UniffiRustFutureContinuationCallback,`callbackData`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_cancel_u16(`handle`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_cancel_u16(`handle`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_free_u16(`handle`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_free_u16(`handle`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_complete_u16(`handle`: Long,uniffi_out_err: UniffiRustCallStatus, 
+    fun ffi_uniffi_mesh_wallet_core_rust_future_complete_u16(`handle`: Long,uniffi_out_err: UniffiRustCallStatus, 
     ): Short
-    fun ffi_mesh_wallet_core_rust_future_poll_i16(`handle`: Long,`callback`: UniffiRustFutureContinuationCallback,`callbackData`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_poll_i16(`handle`: Long,`callback`: UniffiRustFutureContinuationCallback,`callbackData`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_cancel_i16(`handle`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_cancel_i16(`handle`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_free_i16(`handle`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_free_i16(`handle`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_complete_i16(`handle`: Long,uniffi_out_err: UniffiRustCallStatus, 
+    fun ffi_uniffi_mesh_wallet_core_rust_future_complete_i16(`handle`: Long,uniffi_out_err: UniffiRustCallStatus, 
     ): Short
-    fun ffi_mesh_wallet_core_rust_future_poll_u32(`handle`: Long,`callback`: UniffiRustFutureContinuationCallback,`callbackData`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_poll_u32(`handle`: Long,`callback`: UniffiRustFutureContinuationCallback,`callbackData`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_cancel_u32(`handle`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_cancel_u32(`handle`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_free_u32(`handle`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_free_u32(`handle`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_complete_u32(`handle`: Long,uniffi_out_err: UniffiRustCallStatus, 
+    fun ffi_uniffi_mesh_wallet_core_rust_future_complete_u32(`handle`: Long,uniffi_out_err: UniffiRustCallStatus, 
     ): Int
-    fun ffi_mesh_wallet_core_rust_future_poll_i32(`handle`: Long,`callback`: UniffiRustFutureContinuationCallback,`callbackData`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_poll_i32(`handle`: Long,`callback`: UniffiRustFutureContinuationCallback,`callbackData`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_cancel_i32(`handle`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_cancel_i32(`handle`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_free_i32(`handle`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_free_i32(`handle`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_complete_i32(`handle`: Long,uniffi_out_err: UniffiRustCallStatus, 
+    fun ffi_uniffi_mesh_wallet_core_rust_future_complete_i32(`handle`: Long,uniffi_out_err: UniffiRustCallStatus, 
     ): Int
-    fun ffi_mesh_wallet_core_rust_future_poll_u64(`handle`: Long,`callback`: UniffiRustFutureContinuationCallback,`callbackData`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_poll_u64(`handle`: Long,`callback`: UniffiRustFutureContinuationCallback,`callbackData`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_cancel_u64(`handle`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_cancel_u64(`handle`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_free_u64(`handle`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_free_u64(`handle`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_complete_u64(`handle`: Long,uniffi_out_err: UniffiRustCallStatus, 
+    fun ffi_uniffi_mesh_wallet_core_rust_future_complete_u64(`handle`: Long,uniffi_out_err: UniffiRustCallStatus, 
     ): Long
-    fun ffi_mesh_wallet_core_rust_future_poll_i64(`handle`: Long,`callback`: UniffiRustFutureContinuationCallback,`callbackData`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_poll_i64(`handle`: Long,`callback`: UniffiRustFutureContinuationCallback,`callbackData`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_cancel_i64(`handle`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_cancel_i64(`handle`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_free_i64(`handle`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_free_i64(`handle`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_complete_i64(`handle`: Long,uniffi_out_err: UniffiRustCallStatus, 
+    fun ffi_uniffi_mesh_wallet_core_rust_future_complete_i64(`handle`: Long,uniffi_out_err: UniffiRustCallStatus, 
     ): Long
-    fun ffi_mesh_wallet_core_rust_future_poll_f32(`handle`: Long,`callback`: UniffiRustFutureContinuationCallback,`callbackData`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_poll_f32(`handle`: Long,`callback`: UniffiRustFutureContinuationCallback,`callbackData`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_cancel_f32(`handle`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_cancel_f32(`handle`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_free_f32(`handle`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_free_f32(`handle`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_complete_f32(`handle`: Long,uniffi_out_err: UniffiRustCallStatus, 
+    fun ffi_uniffi_mesh_wallet_core_rust_future_complete_f32(`handle`: Long,uniffi_out_err: UniffiRustCallStatus, 
     ): Float
-    fun ffi_mesh_wallet_core_rust_future_poll_f64(`handle`: Long,`callback`: UniffiRustFutureContinuationCallback,`callbackData`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_poll_f64(`handle`: Long,`callback`: UniffiRustFutureContinuationCallback,`callbackData`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_cancel_f64(`handle`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_cancel_f64(`handle`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_free_f64(`handle`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_free_f64(`handle`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_complete_f64(`handle`: Long,uniffi_out_err: UniffiRustCallStatus, 
+    fun ffi_uniffi_mesh_wallet_core_rust_future_complete_f64(`handle`: Long,uniffi_out_err: UniffiRustCallStatus, 
     ): Double
-    fun ffi_mesh_wallet_core_rust_future_poll_pointer(`handle`: Long,`callback`: UniffiRustFutureContinuationCallback,`callbackData`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_poll_pointer(`handle`: Long,`callback`: UniffiRustFutureContinuationCallback,`callbackData`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_cancel_pointer(`handle`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_cancel_pointer(`handle`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_free_pointer(`handle`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_free_pointer(`handle`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_complete_pointer(`handle`: Long,uniffi_out_err: UniffiRustCallStatus, 
+    fun ffi_uniffi_mesh_wallet_core_rust_future_complete_pointer(`handle`: Long,uniffi_out_err: UniffiRustCallStatus, 
     ): Pointer
-    fun ffi_mesh_wallet_core_rust_future_poll_rust_buffer(`handle`: Long,`callback`: UniffiRustFutureContinuationCallback,`callbackData`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_poll_rust_buffer(`handle`: Long,`callback`: UniffiRustFutureContinuationCallback,`callbackData`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_cancel_rust_buffer(`handle`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_cancel_rust_buffer(`handle`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_free_rust_buffer(`handle`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_free_rust_buffer(`handle`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_complete_rust_buffer(`handle`: Long,uniffi_out_err: UniffiRustCallStatus, 
+    fun ffi_uniffi_mesh_wallet_core_rust_future_complete_rust_buffer(`handle`: Long,uniffi_out_err: UniffiRustCallStatus, 
     ): RustBuffer.ByValue
-    fun ffi_mesh_wallet_core_rust_future_poll_void(`handle`: Long,`callback`: UniffiRustFutureContinuationCallback,`callbackData`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_poll_void(`handle`: Long,`callback`: UniffiRustFutureContinuationCallback,`callbackData`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_cancel_void(`handle`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_cancel_void(`handle`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_free_void(`handle`: Long,
+    fun ffi_uniffi_mesh_wallet_core_rust_future_free_void(`handle`: Long,
     ): Unit
-    fun ffi_mesh_wallet_core_rust_future_complete_void(`handle`: Long,uniffi_out_err: UniffiRustCallStatus, 
+    fun ffi_uniffi_mesh_wallet_core_rust_future_complete_void(`handle`: Long,uniffi_out_err: UniffiRustCallStatus, 
     ): Unit
-    fun uniffi_mesh_wallet_core_checksum_func_signed_spend_from_bytes(
+    fun uniffi_uniffi_mesh_wallet_core_checksum_func_signed_spend_from_bytes(
     ): Short
-    fun uniffi_mesh_wallet_core_checksum_func_signed_spend_to_bytes(
+    fun uniffi_uniffi_mesh_wallet_core_checksum_func_signed_spend_to_bytes(
     ): Short
-    fun uniffi_mesh_wallet_core_checksum_method_walletcore_receive_spend(
+    fun uniffi_uniffi_mesh_wallet_core_checksum_method_walletcore_receive_spend(
     ): Short
-    fun uniffi_mesh_wallet_core_checksum_method_walletcore_spend_next_unit(
+    fun uniffi_uniffi_mesh_wallet_core_checksum_method_walletcore_spend_next_unit(
     ): Short
-    fun uniffi_mesh_wallet_core_checksum_constructor_walletcore_new(
+    fun uniffi_uniffi_mesh_wallet_core_checksum_constructor_walletcore_new(
     ): Short
-    fun uniffi_mesh_wallet_core_checksum_method_hardwaresigner_sign(
+    fun uniffi_uniffi_mesh_wallet_core_checksum_method_hardwaresigner_sign(
     ): Short
-    fun uniffi_mesh_wallet_core_checksum_method_hardwaresigner_public_key(
+    fun uniffi_uniffi_mesh_wallet_core_checksum_method_hardwaresigner_public_key(
     ): Short
-    fun uniffi_mesh_wallet_core_checksum_method_hardwaresigner_advance_counter(
+    fun uniffi_uniffi_mesh_wallet_core_checksum_method_hardwaresigner_advance_counter(
     ): Short
-    fun ffi_mesh_wallet_core_uniffi_contract_version(
+    fun ffi_uniffi_mesh_wallet_core_uniffi_contract_version(
     ): Int
     
 }
@@ -911,7 +911,7 @@ private fun uniffiCheckContractApiVersion(lib: UniffiLib) {
     // Get the bindings contract version from our ComponentInterface
     val bindings_contract_version = 26
     // Get the scaffolding contract version by calling the into the dylib
-    val scaffolding_contract_version = lib.ffi_mesh_wallet_core_uniffi_contract_version()
+    val scaffolding_contract_version = lib.ffi_uniffi_mesh_wallet_core_uniffi_contract_version()
     if (bindings_contract_version != scaffolding_contract_version) {
         throw RuntimeException("UniFFI contract version mismatch: try cleaning and rebuilding your project")
     }
@@ -919,28 +919,28 @@ private fun uniffiCheckContractApiVersion(lib: UniffiLib) {
 
 @Suppress("UNUSED_PARAMETER")
 private fun uniffiCheckApiChecksums(lib: UniffiLib) {
-    if (lib.uniffi_mesh_wallet_core_checksum_func_signed_spend_from_bytes() != 50721.toShort()) {
+    if (lib.uniffi_uniffi_mesh_wallet_core_checksum_func_signed_spend_from_bytes() != 27605.toShort()) {
         throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
     }
-    if (lib.uniffi_mesh_wallet_core_checksum_func_signed_spend_to_bytes() != 26587.toShort()) {
+    if (lib.uniffi_uniffi_mesh_wallet_core_checksum_func_signed_spend_to_bytes() != 55121.toShort()) {
         throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
     }
-    if (lib.uniffi_mesh_wallet_core_checksum_method_walletcore_receive_spend() != 55335.toShort()) {
+    if (lib.uniffi_uniffi_mesh_wallet_core_checksum_method_walletcore_receive_spend() != 46671.toShort()) {
         throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
     }
-    if (lib.uniffi_mesh_wallet_core_checksum_method_walletcore_spend_next_unit() != 8820.toShort()) {
+    if (lib.uniffi_uniffi_mesh_wallet_core_checksum_method_walletcore_spend_next_unit() != 52949.toShort()) {
         throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
     }
-    if (lib.uniffi_mesh_wallet_core_checksum_constructor_walletcore_new() != 2271.toShort()) {
+    if (lib.uniffi_uniffi_mesh_wallet_core_checksum_constructor_walletcore_new() != 51395.toShort()) {
         throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
     }
-    if (lib.uniffi_mesh_wallet_core_checksum_method_hardwaresigner_sign() != 21629.toShort()) {
+    if (lib.uniffi_uniffi_mesh_wallet_core_checksum_method_hardwaresigner_sign() != 33326.toShort()) {
         throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
     }
-    if (lib.uniffi_mesh_wallet_core_checksum_method_hardwaresigner_public_key() != 13874.toShort()) {
+    if (lib.uniffi_uniffi_mesh_wallet_core_checksum_method_hardwaresigner_public_key() != 43455.toShort()) {
         throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
     }
-    if (lib.uniffi_mesh_wallet_core_checksum_method_hardwaresigner_advance_counter() != 13376.toShort()) {
+    if (lib.uniffi_uniffi_mesh_wallet_core_checksum_method_hardwaresigner_advance_counter() != 39227.toShort()) {
         throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
     }
 }
@@ -1280,7 +1280,7 @@ open class WalletCore: Disposable, AutoCloseable, WalletCoreInterface {
     constructor(`signer`: HardwareSigner, `maxUnit`: kotlin.UInt) :
         this(
     uniffiRustCall() { _status ->
-    UniffiLib.INSTANCE.uniffi_mesh_wallet_core_fn_constructor_walletcore_new(
+    UniffiLib.INSTANCE.uniffi_uniffi_mesh_wallet_core_fn_constructor_walletcore_new(
         FfiConverterTypeHardwareSigner.lower(`signer`),FfiConverterUInt.lower(`maxUnit`),_status)
 }
     )
@@ -1336,7 +1336,7 @@ open class WalletCore: Disposable, AutoCloseable, WalletCoreInterface {
         override fun run() {
             pointer?.let { ptr ->
                 uniffiRustCall { status ->
-                    UniffiLib.INSTANCE.uniffi_mesh_wallet_core_fn_free_walletcore(ptr, status)
+                    UniffiLib.INSTANCE.uniffi_uniffi_mesh_wallet_core_fn_free_walletcore(ptr, status)
                 }
             }
         }
@@ -1344,7 +1344,7 @@ open class WalletCore: Disposable, AutoCloseable, WalletCoreInterface {
 
     fun uniffiClonePointer(): Pointer {
         return uniffiRustCall() { status ->
-            UniffiLib.INSTANCE.uniffi_mesh_wallet_core_fn_clone_walletcore(pointer!!, status)
+            UniffiLib.INSTANCE.uniffi_uniffi_mesh_wallet_core_fn_clone_walletcore(pointer!!, status)
         }
     }
 
@@ -1353,7 +1353,7 @@ open class WalletCore: Disposable, AutoCloseable, WalletCoreInterface {
             return FfiConverterUInt.lift(
     callWithPointer {
     uniffiRustCallWithError(WalletException) { _status ->
-    UniffiLib.INSTANCE.uniffi_mesh_wallet_core_fn_method_walletcore_receive_spend(
+    UniffiLib.INSTANCE.uniffi_uniffi_mesh_wallet_core_fn_method_walletcore_receive_spend(
         it, FfiConverterTypeSignedSpendFfi.lower(`spend`),_status)
 }
     }
@@ -1366,7 +1366,7 @@ open class WalletCore: Disposable, AutoCloseable, WalletCoreInterface {
             return FfiConverterTypeSignedSpendFfi.lift(
     callWithPointer {
     uniffiRustCallWithError(WalletException) { _status ->
-    UniffiLib.INSTANCE.uniffi_mesh_wallet_core_fn_method_walletcore_spend_next_unit(
+    UniffiLib.INSTANCE.uniffi_uniffi_mesh_wallet_core_fn_method_walletcore_spend_next_unit(
         it, FfiConverterUInt.lower(`unitId`),FfiConverterByteArray.lower(`recipientPubkey`),_status)
 }
     }
@@ -1603,7 +1603,7 @@ internal object uniffiCallbackInterfaceHardwareSigner {
     // Registers the foreign callback with the Rust side.
     // This method is generated for each callback interface.
     internal fun register(lib: UniffiLib) {
-        lib.uniffi_mesh_wallet_core_fn_init_callback_vtable_hardwaresigner(vtable)
+        lib.uniffi_uniffi_mesh_wallet_core_fn_init_callback_vtable_hardwaresigner(vtable)
     }
 }
 
@@ -1612,7 +1612,7 @@ public object FfiConverterTypeHardwareSigner: FfiConverterCallbackInterface<Hard
     @Throws(WalletException::class) fun `signedSpendFromBytes`(`data`: kotlin.ByteArray): SignedSpendFfi {
             return FfiConverterTypeSignedSpendFfi.lift(
     uniffiRustCallWithError(WalletException) { _status ->
-    UniffiLib.INSTANCE.uniffi_mesh_wallet_core_fn_func_signed_spend_from_bytes(
+    UniffiLib.INSTANCE.uniffi_uniffi_mesh_wallet_core_fn_func_signed_spend_from_bytes(
         FfiConverterByteArray.lower(`data`),_status)
 }
     )
@@ -1621,7 +1621,7 @@ public object FfiConverterTypeHardwareSigner: FfiConverterCallbackInterface<Hard
  fun `signedSpendToBytes`(`spend`: SignedSpendFfi): kotlin.ByteArray {
             return FfiConverterByteArray.lift(
     uniffiRustCall() { _status ->
-    UniffiLib.INSTANCE.uniffi_mesh_wallet_core_fn_func_signed_spend_to_bytes(
+    UniffiLib.INSTANCE.uniffi_uniffi_mesh_wallet_core_fn_func_signed_spend_to_bytes(
         FfiConverterTypeSignedSpendFfi.lower(`spend`),_status)
 }
     )
