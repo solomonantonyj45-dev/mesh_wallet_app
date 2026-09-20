@@ -115,15 +115,24 @@ class PaymentActivity : AppCompatActivity() {
 
     // ---------- Step 1: RECEIVER shows their real pubkey as a QR ----------
     private fun showMyPubkeyQr() {
+        android.widget.Toast.makeText(this, "Step 1: starting", android.widget.Toast.LENGTH_SHORT).show()
         try {
-            getOrCreateWallet() // ensures the key exists
             val signer = StrongBoxSigner("wallet_key")
+            android.widget.Toast.makeText(this, "Step 2: signer created", android.widget.Toast.LENGTH_SHORT).show()
+
             val pubkey = signer.publicKey()
+            android.widget.Toast.makeText(this, "Step 3: pubkey retrieved, len=${pubkey.size}", android.widget.Toast.LENGTH_SHORT).show()
+
+            myWallet = WalletCore(signer, 10000u)
+            android.widget.Toast.makeText(this, "Step 4: WalletCore constructed", android.widget.Toast.LENGTH_SHORT).show()
+
             val payload = Base64.encodeToString(pubkey, Base64.NO_WRAP)
             qrImage.setImageBitmap(generateQrBitmap(payload))
             statusText.text = "This is your pay-to QR. Ask the payer to scan it."
         } catch (e: Exception) {
-            statusText.text = "Error: ${e.message}"
+            statusText.text = "Error: ${e.javaClass.simpleName}: ${e.message}"
+        } catch (e: Error) {
+            statusText.text = "FATAL Error: ${e.javaClass.simpleName}: ${e.message}"
         }
     }
 
