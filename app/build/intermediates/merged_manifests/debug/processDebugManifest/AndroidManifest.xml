@@ -54,12 +54,16 @@
         android:required="false" />
 
     <application
+        android:name="com.meshwallet.app.MeshWalletApp"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:extractNativeLibs="false"
         android:label="MeshWallet"
         android:theme="@style/Theme.AppCompat" >
+        <activity
+            android:name="com.meshwallet.app.CrashDisplayActivity"
+            android:exported="false" />
         <activity
             android:name="com.meshwallet.app.MainActivity"
             android:exported="true" >
