@@ -28,11 +28,23 @@ class StrongBoxSigner(private val alias: String) : HardwareSigner {
         try {
             specBuilder.setIsStrongBoxBacked(true)
             generator.initialize(specBuilder.build())
+            generator.generateKeyPair()
+            return
         } catch (e: Exception) {
-            specBuilder.setIsStrongBoxBacked(false)
-            generator.initialize(specBuilder.build())
+            android.util.Log.w("StrongBoxSigner", "StrongBox unavailable, falling back: ${e}")
         }
-        generator.generateKeyPair()
+
+        try {
+            val fallbackSpec = KeyGenParameterSpec.Builder(alias, KeyProperties.PURPOSE_SIGN)
+                .setDigests(KeyProperties.DIGEST_SHA256)
+                .setAlgorithmParameterSpec(ECGenParameterSpec("secp256r1"))
+                .setIsStrongBoxBacked(false)
+                .build()
+            generator.initialize(fallbackSpec)
+            generator.generateKeyPair()
+        } catch (e: Exception) {
+            throw RuntimeException("Key generation failed even without StrongBox: ${e.javaClass.simpleName}: ${e.message}", e)
+        }
     }
 
     override fun sign(payload: ByteArray): ByteArray {
